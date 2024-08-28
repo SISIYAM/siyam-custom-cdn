@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siyam</title>
+    <link rel="stylesheet" href="./css/style.min.css" />
+  </head>
+  <body>
+    <div class="container-center flex column gap-50">
+      <div class="container-switch">
+        <label class="switch-label">
+          <input type="checkbox" class="switch-input" />
+          <span class="switch-slider"></span>
+        </label>
+        <span class="btn-defalut">Toggle</span>
+      </div>
+      <div class="checkbox-group">
+        <label class="checkbox default">
+          <input type="checkbox" checked />
+          <span class="checkmark"></span>
+          Default
+        </label>
+        <label class="checkbox primary">
+          <input type="checkbox" checked />
+          <span class="checkmark"></span>
+          Primary
+        </label>
+        <label class="checkbox secondary">
+          <input type="checkbox" checked />
+          <span class="checkmark"></span>
+          Secondary
+        </label>
+        <label class="checkbox success">
+          <input type="checkbox" checked />
+          <span class="checkmark"></span>
+          Success
+        </label>
+        <label class="checkbox warning">
+          <input type="checkbox" checked />
+          <span class="checkmark"></span>
+          Warning
+        </label>
+        <label class="checkbox danger">
+          <input type="checkbox" checked />
+          <span class="checkmark"></span>
+          Danger
+        </label>
+      </div>
+      <div class="progress-group">
+        <div class="progress-circle default" aria-label="Loading..."></div>
+        <div class="progress-circle primary" aria-label="Loading..."></div>
+        <div class="progress-circle secondary" aria-label="Loading..."></div>
+        <div class="progress-circle success" aria-label="Loading..."></div>
+        <div class="progress-circle warning" aria-label="Loading..."></div>
+        <div class="progress-circle danger" aria-label="Loading..."></div>
+      </div>
+
+      <button class="open-modal-btn" onclick="openModal()">Open Modal</button>
+
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">Modal Title</div>
+          <div class="divider"></div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              pulvinar risus non risus hendrerit venenatis. Pellentesque sit
+              amet hendrerit risus, sed porttitor quam.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              pulvinar risus non risus hendrerit venenatis. Pellentesque sit
+              amet hendrerit risus, sed porttitor quam.
+            </p>
+            <p>
+              Magna exercitation reprehenderit magna aute tempor cupidatat
+              consequat elit dolor adipisicing. Mollit dolor eiusmod sunt ex
+              incididunt cillum quis. Velit duis sit officia eiusmod Lorem
+              aliqua enim laboris do dolor eiusmod. Et mollit incididunt nisi
+              consectetur esse laborum eiusmod pariatur proident Lorem eiusmod
+              et. Culpa deserunt nostrud ad veniam.
+            </p>
+          </div>
+          <div class="divider"></div>
+          <div class="modal-footer">
+            <button class="close-btn" onclick="closeModal()">Close</button>
+            <button class="action-btn" onclick="closeModal()">Action</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.min.js"></script>
+  </body>
+</html>
