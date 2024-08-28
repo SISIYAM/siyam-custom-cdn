@@ -5,20 +5,20 @@
 - `Card`
 
 ```html
-<div class="card">
-  <div class="card-header">
+<div class="card-ui">
+  <div class="card-header-ui">
     <img
       class="card-image"
       src="https://avatars.githubusercontent.com/u/86160567?s=200&v=4"
       alt="nextui logo"
     />
     <div class="card-info">
-      <p class="card-title">Card Title</p>
-      <p class="card-subtitle">Card</p>
+      <p class="card-title-ui">Card Title</p>
+      <p class="card-subtitle-ui">Card</p>
     </div>
   </div>
 
-  <div class="card-body">
+  <div class="card-body-ui">
     <p>Make beautiful websites regardless of your design experience.</p>
     <div class="responsive-container">
       <img
@@ -29,7 +29,7 @@
     </div>
   </div>
 
-  <div class="card-footer">Card footer</div>
+  <div class="card-footer-ui">Card footer</div>
 </div>
 ```
 
@@ -151,13 +151,13 @@
 - `Modal`
 
 ```html
-<button class="open-modal-btn" onclick="openModal()">Open Modal</button>
+<button class="open-modal-md-btn" onclick="openModal()">Open Modal-md</button>
 
-<div id="modal" class="modal">
-  <div class="modal-content">
-    <div class="modal-header">Modal Title</div>
+<div id="modal-md-ui" class="modal-md-ui">
+  <div class="modal-md-ui-content">
+    <div class="modal-md-ui-header">Modal Title</div>
     <div class="divider"></div>
-    <div class="modal-body">
+    <div class="modal-md-ui-body">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pulvinar
         risus non risus hendrerit venenatis. Pellentesque sit amet hendrerit
@@ -177,9 +177,9 @@
       </p>
     </div>
     <div class="divider"></div>
-    <div class="modal-footer">
-      <button class="close-btn" onclick="closeModal()">Close</button>
-      <button class="action-btn" onclick="closeModal()">Action</button>
+    <div class="modal-md-ui-footer">
+      <button class="modal-md-close-btn" onclick="closeModal()">Close</button>
+      <button class="modal-md-action-btn" onclick="closeModal()">Action</button>
     </div>
   </div>
 </div>
