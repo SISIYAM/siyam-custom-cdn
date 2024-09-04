@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Rendering</title>
+    <link rel="stylesheet" href="./css/style.min.css" />
+  </head>
+  <body>
+    <div class="container-center flex column gap-30">
+      <div class="flex">
+        <div
+          class="toggleSwitch-ui"
+          data-label="Switch 1"
+          label-class="badge-danger"
+        ></div>
+        <div
+          class="toggleSwitch-ui"
+          data-label="Switch 2"
+          data-class="custom-class"
+        ></div>
+        <div class="toggleSwitch-ui" data-label="Switch 3"></div>
+      </div>
+
+      <div class="checkbox-group">
+        <div
+          class="checkBox-ui"
+          data-class="default check-circle"
+          data-label="hello"
+          label-class="badge-danger"
+        ></div>
+        <div
+          class="checkBox-ui"
+          data-class="primary check"
+          data-checked="true"
+          data-name="siyamCheck"
+          data-label="siyam click"
+          label-class="badge-defalut"
+        ></div>
+      </div>
+
+      <div
+        class="loader-circle"
+        data-class="danger"
+        aria-label="Loading..."
+      ></div>
+    </div>
+
+    <script src="./js/script.min.js"></script>
+  </body>
+</html>

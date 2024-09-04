@@ -659,11 +659,6 @@
   color: #dc3545;
 }
 
-.checkbox span {
-  font-size: 14px;
-  color: #333;
-}
-
 /* progress  */
 .progress-group {
   display: flex;
