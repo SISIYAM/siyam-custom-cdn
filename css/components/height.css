@@ -1,0 +1,516 @@
+/* Height utility classes in viewport height (vh) */
+
+/* 100% of viewport height */
+.height-vh-100 {
+  height: 100vh;
+}
+
+/* 75% of viewport height */
+.height-vh-75 {
+  height: 75vh;
+}
+
+/* 50% of viewport height */
+.height-vh-50 {
+  height: 50vh;
+}
+
+/* 25% of viewport height */
+.height-vh-25 {
+  height: 25vh;
+}
+
+/* 10% of viewport height */
+.height-vh-10 {
+  height: 10vh;
+}
+
+/* Width utility classes in viewport width (vw) */
+
+/* 100% of viewport width */
+.width-vw-100 {
+  width: 100vw;
+}
+
+/* 75% of viewport width */
+.width-vw-75 {
+  width: 75vw;
+}
+
+/* 50% of viewport width */
+.width-vw-50 {
+  width: 50vw;
+}
+
+/* 25% of viewport width */
+.width-vw-25 {
+  width: 25vw;
+}
+
+/* 10% of viewport width */
+.width-vw-10 {
+  width: 10vw;
+}
+
+/* Height utility classes in rem, starting from 1 rem and increasing by 1 rem up to 25 rem */
+
+/* 1 rem */
+.height-rem-1 {
+  height: 1rem;
+}
+
+/* 2 rem */
+.height-rem-2 {
+  height: 2rem;
+}
+
+/* 3 rem */
+.height-rem-3 {
+  height: 3rem;
+}
+
+/* 4 rem */
+.height-rem-4 {
+  height: 4rem;
+}
+
+/* 5 rem */
+.height-rem-5 {
+  height: 5rem;
+}
+
+/* 6 rem */
+.height-rem-6 {
+  height: 6rem;
+}
+
+/* 7 rem */
+.height-rem-7 {
+  height: 7rem;
+}
+
+/* 8 rem */
+.height-rem-8 {
+  height: 8rem;
+}
+
+/* 9 rem */
+.height-rem-9 {
+  height: 9rem;
+}
+
+/* 10 rem */
+.height-rem-10 {
+  height: 10rem;
+}
+
+/* 11 rem */
+.height-rem-11 {
+  height: 11rem;
+}
+
+/* 12 rem */
+.height-rem-12 {
+  height: 12rem;
+}
+
+/* 13 rem */
+.height-rem-13 {
+  height: 13rem;
+}
+
+/* 14 rem */
+.height-rem-14 {
+  height: 14rem;
+}
+
+/* 15 rem */
+.height-rem-15 {
+  height: 15rem;
+}
+
+/* 16 rem */
+.height-rem-16 {
+  height: 16rem;
+}
+
+/* 17 rem */
+.height-rem-17 {
+  height: 17rem;
+}
+
+/* 18 rem */
+.height-rem-18 {
+  height: 18rem;
+}
+
+/* 19 rem */
+.height-rem-19 {
+  height: 19rem;
+}
+
+/* 20 rem */
+.height-rem-20 {
+  height: 20rem;
+}
+
+/* 21 rem */
+.height-rem-21 {
+  height: 21rem;
+}
+
+/* 22 rem */
+.height-rem-22 {
+  height: 22rem;
+}
+
+/* 23 rem */
+.height-rem-23 {
+  height: 23rem;
+}
+
+/* 24 rem */
+.height-rem-24 {
+  height: 24rem;
+}
+
+/* 25 rem */
+.height-rem-25 {
+  height: 25rem;
+}
+
+/* Height utility classes in pixels */
+
+/* 1 px to 25 px, increasing by 1 px */
+.height-px-1 {
+  height: 1px;
+}
+.height-px-2 {
+  height: 2px;
+}
+.height-px-3 {
+  height: 3px;
+}
+.height-px-4 {
+  height: 4px;
+}
+.height-px-5 {
+  height: 5px;
+}
+.height-px-6 {
+  height: 6px;
+}
+.height-px-7 {
+  height: 7px;
+}
+.height-px-8 {
+  height: 8px;
+}
+.height-px-9 {
+  height: 9px;
+}
+.height-px-10 {
+  height: 10px;
+}
+.height-px-11 {
+  height: 11px;
+}
+.height-px-12 {
+  height: 12px;
+}
+.height-px-13 {
+  height: 13px;
+}
+.height-px-14 {
+  height: 14px;
+}
+.height-px-15 {
+  height: 15px;
+}
+.height-px-16 {
+  height: 16px;
+}
+.height-px-17 {
+  height: 17px;
+}
+.height-px-18 {
+  height: 18px;
+}
+.height-px-19 {
+  height: 19px;
+}
+.height-px-20 {
+  height: 20px;
+}
+.height-px-21 {
+  height: 21px;
+}
+.height-px-22 {
+  height: 22px;
+}
+.height-px-23 {
+  height: 23px;
+}
+.height-px-24 {
+  height: 24px;
+}
+.height-px-25 {
+  height: 25px;
+}
+
+/* 30 px to 100 px, increasing by 5 px */
+.height-px-30 {
+  height: 30px;
+}
+.height-px-35 {
+  height: 35px;
+}
+.height-px-40 {
+  height: 40px;
+}
+.height-px-45 {
+  height: 45px;
+}
+.height-px-50 {
+  height: 50px;
+}
+.height-px-55 {
+  height: 55px;
+}
+.height-px-60 {
+  height: 60px;
+}
+.height-px-65 {
+  height: 65px;
+}
+.height-px-70 {
+  height: 70px;
+}
+.height-px-75 {
+  height: 75px;
+}
+.height-px-80 {
+  height: 80px;
+}
+.height-px-85 {
+  height: 85px;
+}
+.height-px-90 {
+  height: 90px;
+}
+.height-px-95 {
+  height: 95px;
+}
+.height-px-100 {
+  height: 100px;
+}
+
+/* 110 px to 150 px, increasing by 10 px */
+.height-px-110 {
+  height: 110px;
+}
+.height-px-120 {
+  height: 120px;
+}
+.height-px-130 {
+  height: 130px;
+}
+.height-px-140 {
+  height: 140px;
+}
+.height-px-150 {
+  height: 150px;
+}
+
+/* 180 px to 300 px, increasing by 30 px */
+.height-px-180 {
+  height: 180px;
+}
+.height-px-210 {
+  height: 210px;
+}
+.height-px-240 {
+  height: 240px;
+}
+.height-px-270 {
+  height: 270px;
+}
+.height-px-300 {
+  height: 300px;
+}
+/* Height utility classes in percentages */
+
+/* 1% to 25%, increasing by 1% */
+.height-percent-1 {
+  height: 1%;
+}
+.height-percent-2 {
+  height: 2%;
+}
+.height-percent-3 {
+  height: 3%;
+}
+.height-percent-4 {
+  height: 4%;
+}
+.height-percent-5 {
+  height: 5%;
+}
+.height-percent-6 {
+  height: 6%;
+}
+.height-percent-7 {
+  height: 7%;
+}
+.height-percent-8 {
+  height: 8%;
+}
+.height-percent-9 {
+  height: 9%;
+}
+.height-percent-10 {
+  height: 10%;
+}
+.height-percent-11 {
+  height: 11%;
+}
+.height-percent-12 {
+  height: 12%;
+}
+.height-percent-13 {
+  height: 13%;
+}
+.height-percent-14 {
+  height: 14%;
+}
+.height-percent-15 {
+  height: 15%;
+}
+.height-percent-16 {
+  height: 16%;
+}
+.height-percent-17 {
+  height: 17%;
+}
+.height-percent-18 {
+  height: 18%;
+}
+.height-percent-19 {
+  height: 19%;
+}
+.height-percent-20 {
+  height: 20%;
+}
+.height-percent-21 {
+  height: 21%;
+}
+.height-percent-22 {
+  height: 22%;
+}
+.height-percent-23 {
+  height: 23%;
+}
+.height-percent-24 {
+  height: 24%;
+}
+.height-percent-25 {
+  height: 25%;
+}
+
+/* 30% to 100%, increasing by 5% */
+.height-percent-30 {
+  height: 30%;
+}
+.height-percent-35 {
+  height: 35%;
+}
+.height-percent-40 {
+  height: 40%;
+}
+.height-percent-45 {
+  height: 45%;
+}
+.height-percent-50 {
+  height: 50%;
+}
+.height-percent-55 {
+  height: 55%;
+}
+.height-percent-60 {
+  height: 60%;
+}
+.height-percent-65 {
+  height: 65%;
+}
+.height-percent-70 {
+  height: 70%;
+}
+.height-percent-75 {
+  height: 75%;
+}
+.height-percent-80 {
+  height: 80%;
+}
+.height-percent-85 {
+  height: 85%;
+}
+.height-percent-90 {
+  height: 90%;
+}
+.height-percent-95 {
+  height: 95%;
+}
+.height-percent-100 {
+  height: 100%;
+}
+
+/* 110% to 150%, increasing by 10% */
+.height-percent-110 {
+  height: 110%;
+}
+.height-percent-120 {
+  height: 120%;
+}
+.height-percent-130 {
+  height: 130%;
+}
+.height-percent-140 {
+  height: 140%;
+}
+.height-percent-150 {
+  height: 150%;
+}
+
+/* 180% to 300%, increasing by 30% */
+.height-percent-180 {
+  height: 180%;
+}
+.height-percent-210 {
+  height: 210%;
+}
+.height-percent-240 {
+  height: 240%;
+}
+.height-percent-270 {
+  height: 270%;
+}
+.height-percent-300 {
+  height: 300%;
+}
+
+/* Height utility classes */
+
+/* Auto */
+.height-auto {
+  height: auto;
+}
+
+/* Initial - Sets the height to its default value */
+.height-initial {
+  height: initial;
+}
+
+/* Inherit - Inherits the height from its parent */
+.height-inherit {
+  height: inherit;
+}

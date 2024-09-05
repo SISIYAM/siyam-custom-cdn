@@ -1,0 +1,95 @@
+/* Serif Fonts */
+.font-serif-times-new-roman {
+  font-family: "Times New Roman", serif;
+}
+
+.font-serif-georgia {
+  font-family: Georgia, serif;
+}
+
+.font-serif-garamond {
+  font-family: Garamond, serif;
+}
+
+/* Sans-serif Fonts */
+.font-sans-serif-arial {
+  font-family: Arial, sans-serif;
+}
+
+.font-sans-serif-verdana {
+  font-family: Verdana, sans-serif;
+}
+
+.font-sans-serif-helvetica {
+  font-family: Helvetica, sans-serif;
+}
+
+/* Monospace Fonts */
+.font-monospace-courier-new {
+  font-family: "Courier New", monospace;
+}
+
+.font-monospace-lucida-console {
+  font-family: "Lucida Console", monospace;
+}
+
+.font-monospace-monaco {
+  font-family: Monaco, monospace;
+}
+
+/* Cursive Fonts */
+.font-cursive-brush-script-mt {
+  font-family: "Brush Script MT", cursive;
+}
+
+.font-cursive-lucida-handwriting {
+  font-family: "Lucida Handwriting", cursive;
+}
+
+/* Fantasy Fonts */
+.font-fantasy {
+  font-family: "Fantasy", fantasy;
+}
+
+/* Additional Fonts */
+
+/* Sans-serif Fonts */
+.font-sans-serif-trebuchet-ms {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.font-sans-serif-tahoma {
+  font-family: Tahoma, sans-serif;
+}
+
+.font-sans-serif-open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Serif Fonts */
+.font-serif-palatino {
+  font-family: "Palatino Linotype", serif;
+}
+
+.font-serif-book-antiqua {
+  font-family: "Book Antiqua", serif;
+}
+
+/* Monospace Fonts */
+.font-monospace-source-code-pro {
+  font-family: "Source Code Pro", monospace;
+}
+
+.font-monospace-fira-code {
+  font-family: "Fira Code", monospace;
+}
+
+/* Cursive Fonts */
+.font-cursive-dancing-script {
+  font-family: "Dancing Script", cursive;
+}
+
+/* Fantasy Fonts */
+.font-fantasy-impact {
+  font-family: Impact, fantasy;
+}

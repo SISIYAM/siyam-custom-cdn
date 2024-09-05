@@ -39,3 +39,15 @@
 
 /* Import padding CSS */
 @import url("./components/padding.css");
+
+/* Import border CSS */
+@import url("./components/border.css");
+
+/* Import fonts CSS */
+@import url("./components/fonts.css");
+
+/* Import height CSS */
+@import url("./components/height.css");
+
+/* Import width CSS */
+@import url("./components/width.css");

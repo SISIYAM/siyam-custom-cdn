@@ -1,0 +1,1428 @@
+/* 1px dotted border */
+.border-1-dotted-black {
+  border: 1px dotted black;
+}
+
+/* 2px dotted border */
+.border-2-dotted-black {
+  border: 2px dotted black;
+}
+
+/* 3px dotted border */
+.border-3-dotted-black {
+  border: 3px dotted black;
+}
+
+/* 4px dotted border */
+.border-4-dotted-black {
+  border: 4px dotted black;
+}
+
+/* 5px dotted border */
+.border-5-dotted-black {
+  border: 5px dotted black;
+}
+
+/* 6px dotted border */
+.border-6-dotted-black {
+  border: 6px dotted black;
+}
+
+/* 7px dotted border */
+.border-7-dotted-black {
+  border: 7px dotted black;
+}
+
+/* 8px dotted border */
+.border-8-dotted-black {
+  border: 8px dotted black;
+}
+
+/* 9px dotted border */
+.border-9-dotted-black {
+  border: 9px dotted black;
+}
+
+/* 10px dotted border */
+.border-10-dotted-black {
+  border: 10px dotted black;
+}
+
+/* 1px dotted border in deep blue with shade variations */
+.border-1-dotted-deep-blue-100 {
+  border: 1px dotted #002d72; /* Slightly lighter Deep Blue */
+}
+.border-1-dotted-deep-blue-200 {
+  border: 1px dotted #003366; /* Original Deep Blue */
+}
+.border-1-dotted-deep-blue-300 {
+  border: 1px dotted #004080; /* Slightly darker Deep Blue */
+}
+
+/* 2px dotted border in teal with shade variations */
+.border-2-dotted-teal-100 {
+  border: 2px dotted #007373; /* Slightly lighter Teal */
+}
+.border-2-dotted-teal-200 {
+  border: 2px dotted #008080; /* Original Teal */
+}
+.border-2-dotted-teal-300 {
+  border: 2px dotted #009688; /* Slightly darker Teal */
+}
+
+/* 3px dotted border in dark green with shade variations */
+.border-3-dotted-dark-green-100 {
+  border: 3px dotted #003d00; /* Slightly lighter Dark Green */
+}
+.border-3-dotted-dark-green-200 {
+  border: 3px dotted #004d00; /* Original Dark Green */
+}
+.border-3-dotted-dark-green-300 {
+  border: 3px dotted #005700; /* Slightly darker Dark Green */
+}
+
+/* 4px dotted border in dark red with shade variations */
+.border-4-dotted-dark-red-100 {
+  border: 4px dotted #5c0000; /* Slightly lighter Dark Red */
+}
+.border-4-dotted-dark-red-200 {
+  border: 4px dotted #660000; /* Original Dark Red */
+}
+.border-4-dotted-dark-red-300 {
+  border: 4px dotted #730000; /* Slightly darker Dark Red */
+}
+
+/* 5px dotted border in purple with shade variations */
+.border-5-dotted-purple-100 {
+  border: 5px dotted #4b0033; /* Slightly lighter Purple */
+}
+.border-5-dotted-purple-200 {
+  border: 5px dotted #660066; /* Original Purple */
+}
+.border-5-dotted-purple-300 {
+  border: 5px dotted #800080; /* Slightly darker Purple */
+}
+
+/* 6px dotted border in dark orange with shade variations */
+.border-6-dotted-dark-orange-100 {
+  border: 6px dotted #b34d00; /* Slightly lighter Dark Orange */
+}
+.border-6-dotted-dark-orange-200 {
+  border: 6px dotted #cc6600; /* Original Dark Orange */
+}
+.border-6-dotted-dark-orange-300 {
+  border: 6px dotted #e65c00; /* Slightly darker Dark Orange */
+}
+
+/* 7px dotted border in midnight blue with shade variations */
+.border-7-dotted-midnight-blue-100 {
+  border: 7px dotted #000066; /* Slightly lighter Midnight Blue */
+}
+.border-7-dotted-midnight-blue-200 {
+  border: 7px dotted #191970; /* Original Midnight Blue */
+}
+.border-7-dotted-midnight-blue-300 {
+  border: 7px dotted #000080; /* Slightly darker Midnight Blue */
+}
+
+/* 8px dotted border in slate gray with shade variations */
+.border-8-dotted-slate-gray-100 {
+  border: 8px dotted #6e7b8b; /* Slightly lighter Slate Gray */
+}
+.border-8-dotted-slate-gray-200 {
+  border: 8px dotted #708090; /* Original Slate Gray */
+}
+.border-8-dotted-slate-gray-300 {
+  border: 8px dotted #778899; /* Slightly darker Slate Gray */
+}
+
+/* 9px dotted border in forest green with shade variations */
+.border-9-dotted-forest-green-100 {
+  border: 9px dotted #1e6e1e; /* Slightly lighter Forest Green */
+}
+.border-9-dotted-forest-green-200 {
+  border: 9px dotted #228b22; /* Original Forest Green */
+}
+.border-9-dotted-forest-green-300 {
+  border: 9px dotted #2e8b57; /* Slightly darker Forest Green */
+}
+
+/* 10px dotted border in dark violet with shade variations */
+.border-10-dotted-dark-violet-100 {
+  border: 10px dotted #3a007d; /* Slightly lighter Dark Violet */
+}
+.border-10-dotted-dark-violet-200 {
+  border: 10px dotted #4b0082; /* Original Dark Violet */
+}
+.border-10-dotted-dark-violet-300 {
+  border: 10px dotted #5a0099; /* Slightly darker Dark Violet */
+}
+
+/* 1px gradient border */
+.border-1-gradient-blue-purple {
+  border: 1px solid transparent;
+  border-image: linear-gradient(45deg, #0000ff, #800080) 1;
+}
+
+/* 2px gradient border */
+.border-2-gradient-teal-orange {
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #008080, #ff4500) 1;
+}
+
+/* 3px gradient border */
+.border-3-gradient-dark-green-gold {
+  border: 3px solid transparent;
+  border-image: linear-gradient(45deg, #004d00, #ffd700) 1;
+}
+
+/* 4px gradient border */
+.border-4-gradient-dark-red-light-pink {
+  border: 4px solid transparent;
+  border-image: linear-gradient(45deg, #660000, #ff69b4) 1;
+}
+
+/* 5px gradient border */
+.border-5-gradient-deep-blue-cyan {
+  border: 5px solid transparent;
+  border-image: linear-gradient(45deg, #003366, #00ffff) 1;
+}
+
+/* 6px gradient border */
+.border-6-gradient-pink-violet {
+  border: 6px solid transparent;
+  border-image: linear-gradient(45deg, #ff1493, #8a2be2) 1;
+}
+
+/* 7px gradient border */
+.border-7-gradient-dark-orange-light-yellow {
+  border: 7px solid transparent;
+  border-image: linear-gradient(45deg, #cc6600, #ffffe0) 1;
+}
+
+/* 8px gradient border */
+.border-8-gradient-midnight-blue-light-blue {
+  border: 8px solid transparent;
+  border-image: linear-gradient(45deg, #191970, #87cefa) 1;
+}
+
+/* 9px gradient border */
+.border-9-gradient-slate-gray-light-gray {
+  border: 9px solid transparent;
+  border-image: linear-gradient(45deg, #708090, #d3d3d3) 1;
+}
+
+/* 10px gradient border */
+.border-10-gradient-forest-green-light-green {
+  border: 10px solid transparent;
+  border-image: linear-gradient(45deg, #228b22, #90ee90) 1;
+}
+
+/* 1px dashed border */
+.border-1-dashed-black {
+  border: 1px dashed black;
+}
+
+/* 2px dashed border */
+.border-2-dashed-black {
+  border: 2px dashed black;
+}
+
+/* 3px dashed border */
+.border-3-dashed-black {
+  border: 3px dashed black;
+}
+
+/* 4px dashed border */
+.border-4-dashed-black {
+  border: 4px dashed black;
+}
+
+/* 5px dashed border */
+.border-5-dashed-black {
+  border: 5px dashed black;
+}
+
+/* 6px dashed border */
+.border-6-dashed-black {
+  border: 6px dashed black;
+}
+
+/* 7px dashed border */
+.border-7-dashed-black {
+  border: 7px dashed black;
+}
+
+/* 8px dashed border */
+.border-8-dashed-black {
+  border: 8px dashed black;
+}
+
+/* 9px dashed border */
+.border-9-dashed-black {
+  border: 9px dashed black;
+}
+
+/* 10px dashed border */
+.border-10-dashed-black {
+  border: 10px dashed black;
+}
+
+/* 1px solid border */
+.border-1-solid-black {
+  border: 1px solid black;
+}
+
+/* 2px solid border */
+.border-2-solid-black {
+  border: 2px solid black;
+}
+
+/* 3px solid border */
+.border-3-solid-black {
+  border: 3px solid black;
+}
+
+/* 4px solid border */
+.border-4-solid-black {
+  border: 4px solid black;
+}
+
+/* 5px solid border */
+.border-5-solid-black {
+  border: 5px solid black;
+}
+
+/* 6px solid border */
+.border-6-solid-black {
+  border: 6px solid black;
+}
+
+/* 7px solid border */
+.border-7-solid-black {
+  border: 7px solid black;
+}
+
+/* 8px solid border */
+.border-8-solid-black {
+  border: 8px solid black;
+}
+
+/* 9px solid border */
+.border-9-solid-black {
+  border: 9px solid black;
+}
+
+/* 10px solid border */
+.border-10-solid-black {
+  border: 10px solid black;
+}
+
+/* 1px double border */
+.border-1-double-black {
+  border: 1px double black;
+}
+
+/* 2px double border */
+.border-2-double-black {
+  border: 2px double black;
+}
+
+/* 3px double border */
+.border-3-double-black {
+  border: 3px double black;
+}
+
+/* 4px double border */
+.border-4-double-black {
+  border: 4px double black;
+}
+
+/* 5px double border */
+.border-5-double-black {
+  border: 5px double black;
+}
+
+/* 6px double border */
+.border-6-double-black {
+  border: 6px double black;
+}
+
+/* 7px double border */
+.border-7-double-black {
+  border: 7px double black;
+}
+
+/* 8px double border */
+.border-8-double-black {
+  border: 8px double black;
+}
+
+/* 9px double border */
+.border-9-double-black {
+  border: 9px double black;
+}
+
+/* 10px double border */
+.border-10-double-black {
+  border: 10px double black;
+}
+
+/* 1px groove border */
+.border-1-groove-black {
+  border: 1px groove black;
+}
+
+/* 2px groove border */
+.border-2-groove-black {
+  border: 2px groove black;
+}
+
+/* 3px groove border */
+.border-3-groove-black {
+  border: 3px groove black;
+}
+
+/* 4px groove border */
+.border-4-groove-black {
+  border: 4px groove black;
+}
+
+/* 5px groove border */
+.border-5-groove-black {
+  border: 5px groove black;
+}
+
+/* 6px groove border */
+.border-6-groove-black {
+  border: 6px groove black;
+}
+
+/* 7px groove border */
+.border-7-groove-black {
+  border: 7px groove black;
+}
+
+/* 8px groove border */
+.border-8-groove-black {
+  border: 8px groove black;
+}
+
+/* 9px groove border */
+.border-9-groove-black {
+  border: 9px groove black;
+}
+
+/* 10px groove border */
+.border-10-groove-black {
+  border: 10px groove black;
+}
+
+/* 1px ridge border */
+.border-1-ridge-black {
+  border: 1px ridge black;
+}
+
+/* 2px ridge border */
+.border-2-ridge-black {
+  border: 2px ridge black;
+}
+
+/* 3px ridge border */
+.border-3-ridge-black {
+  border: 3px ridge black;
+}
+
+/* 4px ridge border */
+.border-4-ridge-black {
+  border: 4px ridge black;
+}
+
+/* 5px ridge border */
+.border-5-ridge-black {
+  border: 5px ridge black;
+}
+
+/* 6px ridge border */
+.border-6-ridge-black {
+  border: 6px ridge black;
+}
+
+/* 7px ridge border */
+.border-7-ridge-black {
+  border: 7px ridge black;
+}
+
+/* 8px ridge border */
+.border-8-ridge-black {
+  border: 8px ridge black;
+}
+
+/* 9px ridge border */
+.border-9-ridge-black {
+  border: 9px ridge black;
+}
+
+/* 10px ridge border */
+.border-10-ridge-black {
+  border: 10px ridge black;
+}
+/* 1px inset border */
+.border-1-inset-black {
+  border: 1px inset black;
+}
+
+/* 2px inset border */
+.border-2-inset-black {
+  border: 2px inset black;
+}
+
+/* 3px inset border */
+.border-3-inset-black {
+  border: 3px inset black;
+}
+
+/* 4px inset border */
+.border-4-inset-black {
+  border: 4px inset black;
+}
+
+/* 5px inset border */
+.border-5-inset-black {
+  border: 5px inset black;
+}
+
+/* 6px inset border */
+.border-6-inset-black {
+  border: 6px inset black;
+}
+
+/* 7px inset border */
+.border-7-inset-black {
+  border: 7px inset black;
+}
+
+/* 8px inset border */
+.border-8-inset-black {
+  border: 8px inset black;
+}
+
+/* 9px inset border */
+.border-9-inset-black {
+  border: 9px inset black;
+}
+
+/* 10px inset border */
+.border-10-inset-black {
+  border: 10px inset black;
+}
+
+/* 1px outset border */
+.border-1-outset-black {
+  border: 1px outset black;
+}
+
+/* 2px outset border */
+.border-2-outset-black {
+  border: 2px outset black;
+}
+
+/* 3px outset border */
+.border-3-outset-black {
+  border: 3px outset black;
+}
+
+/* 4px outset border */
+.border-4-outset-black {
+  border: 4px outset black;
+}
+
+/* 5px outset border */
+.border-5-outset-black {
+  border: 5px outset black;
+}
+
+/* 6px outset border */
+.border-6-outset-black {
+  border: 6px outset black;
+}
+
+/* 7px outset border */
+.border-7-outset-black {
+  border: 7px outset black;
+}
+
+/* 8px outset border */
+.border-8-outset-black {
+  border: 8px outset black;
+}
+
+/* 9px outset border */
+.border-9-outset-black {
+  border: 9px outset black;
+}
+
+/* 10px outset border */
+.border-10-outset-black {
+  border: 10px outset black;
+}
+
+/* 1px none border */
+.border-1-none-black {
+  border: 1px none black;
+}
+
+/* 2px none border */
+.border-2-none-black {
+  border: 2px none black;
+}
+
+/* 3px none border */
+.border-3-none-black {
+  border: 3px none black;
+}
+
+/* 4px none border */
+.border-4-none-black {
+  border: 4px none black;
+}
+
+/* 5px none border */
+.border-5-none-black {
+  border: 5px none black;
+}
+
+/* 6px none border */
+.border-6-none-black {
+  border: 6px none black;
+}
+
+/* 7px none border */
+.border-7-none-black {
+  border: 7px none black;
+}
+
+/* 8px none border */
+.border-8-none-black {
+  border: 8px none black;
+}
+
+/* 9px none border */
+.border-9-none-black {
+  border: 9px none black;
+}
+
+/* 10px none border */
+.border-10-none-black {
+  border: 10px none black;
+}
+
+/* 1px hidden border */
+.border-1-hidden-black {
+  border: 1px hidden black;
+}
+
+/* 2px hidden border */
+.border-2-hidden-black {
+  border: 2px hidden black;
+}
+
+/* 3px hidden border */
+.border-3-hidden-black {
+  border: 3px hidden black;
+}
+
+/* 4px hidden border */
+.border-4-hidden-black {
+  border: 4px hidden black;
+}
+
+/* 5px hidden border */
+.border-5-hidden-black {
+  border: 5px hidden black;
+}
+
+/* 6px hidden border */
+.border-6-hidden-black {
+  border: 6px hidden black;
+}
+
+/* 7px hidden border */
+.border-7-hidden-black {
+  border: 7px hidden black;
+}
+
+/* 8px hidden border */
+.border-8-hidden-black {
+  border: 8px hidden black;
+}
+
+/* 9px hidden border */
+.border-9-hidden-black {
+  border: 9px hidden black;
+}
+
+/* 10px hidden border */
+.border-10-hidden-black {
+  border: 10px hidden black;
+}
+
+/* 1px dashed border in deep blue with shade variations */
+.border-1-dashed-deep-blue-100 {
+  border: 1px dashed #002d72; /* Slightly lighter Deep Blue */
+}
+.border-1-dashed-deep-blue-200 {
+  border: 1px dashed #003366; /* Original Deep Blue */
+}
+.border-1-dashed-deep-blue-300 {
+  border: 1px dashed #004080; /* Slightly darker Deep Blue */
+}
+
+/* 2px dashed border in teal with shade variations */
+.border-2-dashed-teal-100 {
+  border: 2px dashed #007373; /* Slightly lighter Teal */
+}
+.border-2-dashed-teal-200 {
+  border: 2px dashed #008080; /* Original Teal */
+}
+.border-2-dashed-teal-300 {
+  border: 2px dashed #009688; /* Slightly darker Teal */
+}
+
+/* 3px dashed border in dark green with shade variations */
+.border-3-dashed-dark-green-100 {
+  border: 3px dashed #003d00; /* Slightly lighter Dark Green */
+}
+.border-3-dashed-dark-green-200 {
+  border: 3px dashed #004d00; /* Original Dark Green */
+}
+.border-3-dashed-dark-green-300 {
+  border: 3px dashed #005700; /* Slightly darker Dark Green */
+}
+
+/* 4px dashed border in dark red with shade variations */
+.border-4-dashed-dark-red-100 {
+  border: 4px dashed #5c0000; /* Slightly lighter Dark Red */
+}
+.border-4-dashed-dark-red-200 {
+  border: 4px dashed #660000; /* Original Dark Red */
+}
+.border-4-dashed-dark-red-300 {
+  border: 4px dashed #730000; /* Slightly darker Dark Red */
+}
+
+/* 5px dashed border in purple with shade variations */
+.border-5-dashed-purple-100 {
+  border: 5px dashed #4b0033; /* Slightly lighter Purple */
+}
+.border-5-dashed-purple-200 {
+  border: 5px dashed #660066; /* Original Purple */
+}
+.border-5-dashed-purple-300 {
+  border: 5px dashed #800080; /* Slightly darker Purple */
+}
+
+/* 6px dashed border in dark orange with shade variations */
+.border-6-dashed-dark-orange-100 {
+  border: 6px dashed #b34d00; /* Slightly lighter Dark Orange */
+}
+.border-6-dashed-dark-orange-200 {
+  border: 6px dashed #cc6600; /* Original Dark Orange */
+}
+.border-6-dashed-dark-orange-300 {
+  border: 6px dashed #e65c00; /* Slightly darker Dark Orange */
+}
+
+/* 7px dashed border in midnight blue with shade variations */
+.border-7-dashed-midnight-blue-100 {
+  border: 7px dashed #000066; /* Slightly lighter Midnight Blue */
+}
+.border-7-dashed-midnight-blue-200 {
+  border: 7px dashed #191970; /* Original Midnight Blue */
+}
+.border-7-dashed-midnight-blue-300 {
+  border: 7px dashed #000080; /* Slightly darker Midnight Blue */
+}
+
+/* 8px dashed border in slate gray with shade variations */
+.border-8-dashed-slate-gray-100 {
+  border: 8px dashed #6e7b8b; /* Slightly lighter Slate Gray */
+}
+.border-8-dashed-slate-gray-200 {
+  border: 8px dashed #708090; /* Original Slate Gray */
+}
+.border-8-dashed-slate-gray-300 {
+  border: 8px dashed #778899; /* Slightly darker Slate Gray */
+}
+
+/* 9px dashed border in forest green with shade variations */
+.border-9-dashed-forest-green-100 {
+  border: 9px dashed #1e6e1e; /* Slightly lighter Forest Green */
+}
+.border-9-dashed-forest-green-200 {
+  border: 9px dashed #228b22; /* Original Forest Green */
+}
+.border-9-dashed-forest-green-300 {
+  border: 9px dashed #2e8b57; /* Slightly darker Forest Green */
+}
+
+/* 10px dashed border in dark violet with shade variations */
+.border-10-dashed-dark-violet-100 {
+  border: 10px dashed #3a007d; /* Slightly lighter Dark Violet */
+}
+.border-10-dashed-dark-violet-200 {
+  border: 10px dashed #4b0082; /* Original Dark Violet */
+}
+.border-10-dashed-dark-violet-300 {
+  border: 10px dashed #5a0099; /* Slightly darker Dark Violet */
+}
+
+/* Gradient dashed borders */
+.border-1-dashed-gradient-blue-purple {
+  border: 1px dashed transparent;
+  border-image: linear-gradient(45deg, #0000ff, #800080) 1;
+}
+.border-2-dashed-gradient-teal-orange {
+  border: 2px dashed transparent;
+  border-image: linear-gradient(45deg, #008080, #ff4500) 1;
+}
+.border-3-dashed-gradient-dark-green-gold {
+  border: 3px dashed transparent;
+  border-image: linear-gradient(45deg, #004d00, #ffd700) 1;
+}
+.border-4-dashed-gradient-dark-red-light-pink {
+  border: 4px dashed transparent;
+  border-image: linear-gradient(45deg, #660000, #ff69b4) 1;
+}
+.border-5-dashed-gradient-deep-blue-cyan {
+  border: 5px dashed transparent;
+  border-image: linear-gradient(45deg, #003366, #00ffff) 1;
+}
+.border-6-dashed-gradient-pink-violet {
+  border: 6px dashed transparent;
+  border-image: linear-gradient(45deg, #ff1493, #8a2be2) 1;
+}
+.border-7-dashed-gradient-dark-orange-light-yellow {
+  border: 7px dashed transparent;
+  border-image: linear-gradient(45deg, #cc6600, #ffffe0) 1;
+}
+.border-8-dashed-gradient-midnight-blue-light-blue {
+  border: 8px dashed transparent;
+  border-image: linear-gradient(45deg, #191970, #87cefa) 1;
+}
+.border-9-dashed-gradient-slate-gray-light-gray {
+  border: 9px dashed transparent;
+  border-image: linear-gradient(45deg, #708090, #d3d3d3) 1;
+}
+.border-10-dashed-gradient-forest-green-light-green {
+  border: 10px dashed transparent;
+  border-image: linear-gradient(45deg, #228b22, #90ee90) 1;
+}
+
+/* 1px solid border in deep blue with shade variations */
+.border-1-solid-deep-blue-100 {
+  border: 1px solid #002d72; /* Slightly lighter Deep Blue */
+}
+.border-1-solid-deep-blue-200 {
+  border: 1px solid #003366; /* Original Deep Blue */
+}
+.border-1-solid-deep-blue-300 {
+  border: 1px solid #004080; /* Slightly darker Deep Blue */
+}
+
+/* 2px solid border in teal with shade variations */
+.border-2-solid-teal-100 {
+  border: 2px solid #007373; /* Slightly lighter Teal */
+}
+.border-2-solid-teal-200 {
+  border: 2px solid #008080; /* Original Teal */
+}
+.border-2-solid-teal-300 {
+  border: 2px solid #009688; /* Slightly darker Teal */
+}
+
+/* 3px solid border in dark green with shade variations */
+.border-3-solid-dark-green-100 {
+  border: 3px solid #003d00; /* Slightly lighter Dark Green */
+}
+.border-3-solid-dark-green-200 {
+  border: 3px solid #004d00; /* Original Dark Green */
+}
+.border-3-solid-dark-green-300 {
+  border: 3px solid #005700; /* Slightly darker Dark Green */
+}
+
+/* 4px solid border in dark red with shade variations */
+.border-4-solid-dark-red-100 {
+  border: 4px solid #5c0000; /* Slightly lighter Dark Red */
+}
+.border-4-solid-dark-red-200 {
+  border: 4px solid #660000; /* Original Dark Red */
+}
+.border-4-solid-dark-red-300 {
+  border: 4px solid #730000; /* Slightly darker Dark Red */
+}
+
+/* 5px solid border in purple with shade variations */
+.border-5-solid-purple-100 {
+  border: 5px solid #4b0033; /* Slightly lighter Purple */
+}
+.border-5-solid-purple-200 {
+  border: 5px solid #660066; /* Original Purple */
+}
+.border-5-solid-purple-300 {
+  border: 5px solid #800080; /* Slightly darker Purple */
+}
+
+/* 6px solid border in dark orange with shade variations */
+.border-6-solid-dark-orange-100 {
+  border: 6px solid #b34d00; /* Slightly lighter Dark Orange */
+}
+.border-6-solid-dark-orange-200 {
+  border: 6px solid #cc6600; /* Original Dark Orange */
+}
+.border-6-solid-dark-orange-300 {
+  border: 6px solid #e65c00; /* Slightly darker Dark Orange */
+}
+
+/* 7px solid border in midnight blue with shade variations */
+.border-7-solid-midnight-blue-100 {
+  border: 7px solid #000066; /* Slightly lighter Midnight Blue */
+}
+.border-7-solid-midnight-blue-200 {
+  border: 7px solid #191970; /* Original Midnight Blue */
+}
+.border-7-solid-midnight-blue-300 {
+  border: 7px solid #000080; /* Slightly darker Midnight Blue */
+}
+
+/* 8px solid border in slate gray with shade variations */
+.border-8-solid-slate-gray-100 {
+  border: 8px solid #6e7b8b; /* Slightly lighter Slate Gray */
+}
+.border-8-solid-slate-gray-200 {
+  border: 8px solid #708090; /* Original Slate Gray */
+}
+.border-8-solid-slate-gray-300 {
+  border: 8px solid #778899; /* Slightly darker Slate Gray */
+}
+
+/* 9px solid border in forest green with shade variations */
+.border-9-solid-forest-green-100 {
+  border: 9px solid #1e6e1e; /* Slightly lighter Forest Green */
+}
+.border-9-solid-forest-green-200 {
+  border: 9px solid #228b22; /* Original Forest Green */
+}
+.border-9-solid-forest-green-300 {
+  border: 9px solid #2e8b57; /* Slightly darker Forest Green */
+}
+
+/* 10px solid border in dark violet with shade variations */
+.border-10-solid-dark-violet-100 {
+  border: 10px solid #3a007d; /* Slightly lighter Dark Violet */
+}
+.border-10-solid-dark-violet-200 {
+  border: 10px solid #4b0082; /* Original Dark Violet */
+}
+.border-10-solid-dark-violet-300 {
+  border: 10px solid #5a0099; /* Slightly darker Dark Violet */
+}
+
+/* Gradient solid borders */
+.border-1-solid-gradient-blue-purple {
+  border: 1px solid transparent;
+  border-image: linear-gradient(45deg, #0000ff, #800080) 1;
+}
+.border-2-solid-gradient-teal-orange {
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #008080, #ff4500) 1;
+}
+.border-3-solid-gradient-dark-green-gold {
+  border: 3px solid transparent;
+  border-image: linear-gradient(45deg, #004d00, #ffd700) 1;
+}
+.border-4-solid-gradient-dark-red-light-pink {
+  border: 4px solid transparent;
+  border-image: linear-gradient(45deg, #660000, #ff69b4) 1;
+}
+.border-5-solid-gradient-deep-blue-cyan {
+  border: 5px solid transparent;
+  border-image: linear-gradient(45deg, #003366, #00ffff) 1;
+}
+.border-6-solid-gradient-pink-violet {
+  border: 6px solid transparent;
+  border-image: linear-gradient(45deg, #ff1493, #8a2be2) 1;
+}
+.border-7-solid-gradient-dark-orange-light-yellow {
+  border: 7px solid transparent;
+  border-image: linear-gradient(45deg, #cc6600, #ffffe0) 1;
+}
+.border-8-solid-gradient-midnight-blue-light-blue {
+  border: 8px solid transparent;
+  border-image: linear-gradient(45deg, #191970, #87cefa) 1;
+}
+.border-9-solid-gradient-slate-gray-light-gray {
+  border: 9px solid transparent;
+  border-image: linear-gradient(45deg, #708090, #d3d3d3) 1;
+}
+.border-10-solid-gradient-forest-green-light-green {
+  border: 10px solid transparent;
+  border-image: linear-gradient(45deg, #228b22, #90ee90) 1;
+}
+
+/* 1px double border in deep blue with shade variations */
+.border-1-double-deep-blue-100 {
+  border: 1px double #002d72; /* Slightly lighter Deep Blue */
+}
+.border-1-double-deep-blue-200 {
+  border: 1px double #003366; /* Original Deep Blue */
+}
+.border-1-double-deep-blue-300 {
+  border: 1px double #004080; /* Slightly darker Deep Blue */
+}
+
+/* 2px double border in teal with shade variations */
+.border-2-double-teal-100 {
+  border: 2px double #007373; /* Slightly lighter Teal */
+}
+.border-2-double-teal-200 {
+  border: 2px double #008080; /* Original Teal */
+}
+.border-2-double-teal-300 {
+  border: 2px double #009688; /* Slightly darker Teal */
+}
+
+/* 3px double border in dark green with shade variations */
+.border-3-double-dark-green-100 {
+  border: 3px double #003d00; /* Slightly lighter Dark Green */
+}
+.border-3-double-dark-green-200 {
+  border: 3px double #004d00; /* Original Dark Green */
+}
+.border-3-double-dark-green-300 {
+  border: 3px double #005700; /* Slightly darker Dark Green */
+}
+
+/* 4px double border in dark red with shade variations */
+.border-4-double-dark-red-100 {
+  border: 4px double #5c0000; /* Slightly lighter Dark Red */
+}
+.border-4-double-dark-red-200 {
+  border: 4px double #660000; /* Original Dark Red */
+}
+.border-4-double-dark-red-300 {
+  border: 4px double #730000; /* Slightly darker Dark Red */
+}
+
+/* 5px double border in purple with shade variations */
+.border-5-double-purple-100 {
+  border: 5px double #4b0033; /* Slightly lighter Purple */
+}
+.border-5-double-purple-200 {
+  border: 5px double #660066; /* Original Purple */
+}
+.border-5-double-purple-300 {
+  border: 5px double #800080; /* Slightly darker Purple */
+}
+
+/* 6px double border in dark orange with shade variations */
+.border-6-double-dark-orange-100 {
+  border: 6px double #b34d00; /* Slightly lighter Dark Orange */
+}
+.border-6-double-dark-orange-200 {
+  border: 6px double #cc6600; /* Original Dark Orange */
+}
+.border-6-double-dark-orange-300 {
+  border: 6px double #e65c00; /* Slightly darker Dark Orange */
+}
+
+/* 7px double border in midnight blue with shade variations */
+.border-7-double-midnight-blue-100 {
+  border: 7px double #000066; /* Slightly lighter Midnight Blue */
+}
+.border-7-double-midnight-blue-200 {
+  border: 7px double #191970; /* Original Midnight Blue */
+}
+.border-7-double-midnight-blue-300 {
+  border: 7px double #000080; /* Slightly darker Midnight Blue */
+}
+
+/* 8px double border in slate gray with shade variations */
+.border-8-double-slate-gray-100 {
+  border: 8px double #6e7b8b; /* Slightly lighter Slate Gray */
+}
+.border-8-double-slate-gray-200 {
+  border: 8px double #708090; /* Original Slate Gray */
+}
+.border-8-double-slate-gray-300 {
+  border: 8px double #778899; /* Slightly darker Slate Gray */
+}
+
+/* 9px double border in forest green with shade variations */
+.border-9-double-forest-green-100 {
+  border: 9px double #1e6e1e; /* Slightly lighter Forest Green */
+}
+.border-9-double-forest-green-200 {
+  border: 9px double #228b22; /* Original Forest Green */
+}
+.border-9-double-forest-green-300 {
+  border: 9px double #2e8b57; /* Slightly darker Forest Green */
+}
+
+/* 10px double border in dark violet with shade variations */
+.border-10-double-dark-violet-100 {
+  border: 10px double #3a007d; /* Slightly lighter Dark Violet */
+}
+.border-10-double-dark-violet-200 {
+  border: 10px double #4b0082; /* Original Dark Violet */
+}
+.border-10-double-dark-violet-300 {
+  border: 10px double #5a0099; /* Slightly darker Dark Violet */
+}
+
+/* Gradient double borders */
+.border-1-double-gradient-blue-purple {
+  border: 1px double transparent;
+  border-image: linear-gradient(45deg, #0000ff, #800080) 1;
+}
+.border-2-double-gradient-teal-orange {
+  border: 2px double transparent;
+  border-image: linear-gradient(45deg, #008080, #ff4500) 1;
+}
+.border-3-double-gradient-dark-green-gold {
+  border: 3px double transparent;
+  border-image: linear-gradient(45deg, #004d00, #ffd700) 1;
+}
+.border-4-double-gradient-dark-red-light-pink {
+  border: 4px double transparent;
+  border-image: linear-gradient(45deg, #660000, #ff69b4) 1;
+}
+.border-5-double-gradient-deep-blue-cyan {
+  border: 5px double transparent;
+  border-image: linear-gradient(45deg, #003366, #00ffff) 1;
+}
+.border-6-double-gradient-pink-violet {
+  border: 6px double transparent;
+  border-image: linear-gradient(45deg, #ff1493, #8a2be2) 1;
+}
+.border-7-double-gradient-dark-orange-light-yellow {
+  border: 7px double transparent;
+  border-image: linear-gradient(45deg, #cc6600, #ffffe0) 1;
+}
+.border-8-double-gradient-midnight-blue-light-blue {
+  border: 8px double transparent;
+  border-image: linear-gradient(45deg, #191970, #87cefa) 1;
+}
+.border-9-double-gradient-slate-gray-light-gray {
+  border: 9px double transparent;
+  border-image: linear-gradient(45deg, #708090, #d3d3d3) 1;
+}
+.border-10-double-gradient-forest-green-light-green {
+  border: 10px double transparent;
+  border-image: linear-gradient(45deg, #228b22, #90ee90) 1;
+}
+
+/* 1px groove border in deep blue with shade variations */
+.border-1-groove-deep-blue-100 {
+  border: 1px groove #002d72; /* Slightly lighter Deep Blue */
+}
+.border-1-groove-deep-blue-200 {
+  border: 1px groove #003366; /* Original Deep Blue */
+}
+.border-1-groove-deep-blue-300 {
+  border: 1px groove #004080; /* Slightly darker Deep Blue */
+}
+
+/* 2px groove border in teal with shade variations */
+.border-2-groove-teal-100 {
+  border: 2px groove #007373; /* Slightly lighter Teal */
+}
+.border-2-groove-teal-200 {
+  border: 2px groove #008080; /* Original Teal */
+}
+.border-2-groove-teal-300 {
+  border: 2px groove #009688; /* Slightly darker Teal */
+}
+
+/* 3px groove border in dark green with shade variations */
+.border-3-groove-dark-green-100 {
+  border: 3px groove #003d00; /* Slightly lighter Dark Green */
+}
+.border-3-groove-dark-green-200 {
+  border: 3px groove #004d00; /* Original Dark Green */
+}
+.border-3-groove-dark-green-300 {
+  border: 3px groove #005700; /* Slightly darker Dark Green */
+}
+
+/* 4px groove border in dark red with shade variations */
+.border-4-groove-dark-red-100 {
+  border: 4px groove #5c0000; /* Slightly lighter Dark Red */
+}
+.border-4-groove-dark-red-200 {
+  border: 4px groove #660000; /* Original Dark Red */
+}
+.border-4-groove-dark-red-300 {
+  border: 4px groove #730000; /* Slightly darker Dark Red */
+}
+
+/* 5px groove border in purple with shade variations */
+.border-5-groove-purple-100 {
+  border: 5px groove #4b0033; /* Slightly lighter Purple */
+}
+.border-5-groove-purple-200 {
+  border: 5px groove #660066; /* Original Purple */
+}
+.border-5-groove-purple-300 {
+  border: 5px groove #800080; /* Slightly darker Purple */
+}
+
+/* 6px groove border in dark orange with shade variations */
+.border-6-groove-dark-orange-100 {
+  border: 6px groove #b34d00; /* Slightly lighter Dark Orange */
+}
+.border-6-groove-dark-orange-200 {
+  border: 6px groove #cc6600; /* Original Dark Orange */
+}
+.border-6-groove-dark-orange-300 {
+  border: 6px groove #e65c00; /* Slightly darker Dark Orange */
+}
+
+/* 7px groove border in midnight blue with shade variations */
+.border-7-groove-midnight-blue-100 {
+  border: 7px groove #000066; /* Slightly lighter Midnight Blue */
+}
+.border-7-groove-midnight-blue-200 {
+  border: 7px groove #191970; /* Original Midnight Blue */
+}
+.border-7-groove-midnight-blue-300 {
+  border: 7px groove #000080; /* Slightly darker Midnight Blue */
+}
+
+/* 8px groove border in slate gray with shade variations */
+.border-8-groove-slate-gray-100 {
+  border: 8px groove #6e7b8b; /* Slightly lighter Slate Gray */
+}
+.border-8-groove-slate-gray-200 {
+  border: 8px groove #708090; /* Original Slate Gray */
+}
+.border-8-groove-slate-gray-300 {
+  border: 8px groove #778899; /* Slightly darker Slate Gray */
+}
+
+/* 9px groove border in forest green with shade variations */
+.border-9-groove-forest-green-100 {
+  border: 9px groove #1e6e1e; /* Slightly lighter Forest Green */
+}
+.border-9-groove-forest-green-200 {
+  border: 9px groove #228b22; /* Original Forest Green */
+}
+.border-9-groove-forest-green-300 {
+  border: 9px groove #2e8b57; /* Slightly darker Forest Green */
+}
+
+/* 10px groove border in dark violet with shade variations */
+.border-10-groove-dark-violet-100 {
+  border: 10px groove #3a007d; /* Slightly lighter Dark Violet */
+}
+.border-10-groove-dark-violet-200 {
+  border: 10px groove #4b0082; /* Original Dark Violet */
+}
+.border-10-groove-dark-violet-300 {
+  border: 10px groove #5a0099; /* Slightly darker Dark Violet */
+}
+
+/* Gradient groove borders */
+.border-1-groove-gradient-blue-purple {
+  border: 1px groove transparent;
+  border-image: linear-gradient(45deg, #0000ff, #800080) 1;
+}
+.border-2-groove-gradient-teal-orange {
+  border: 2px groove transparent;
+  border-image: linear-gradient(45deg, #008080, #ff4500) 1;
+}
+.border-3-groove-gradient-dark-green-gold {
+  border: 3px groove transparent;
+  border-image: linear-gradient(45deg, #004d00, #ffd700) 1;
+}
+.border-4-groove-gradient-dark-red-light-pink {
+  border: 4px groove transparent;
+  border-image: linear-gradient(45deg, #660000, #ff69b4) 1;
+}
+.border-5-groove-gradient-deep-blue-cyan {
+  border: 5px groove transparent;
+  border-image: linear-gradient(45deg, #003366, #00ffff) 1;
+}
+.border-6-groove-gradient-pink-violet {
+  border: 6px groove transparent;
+  border-image: linear-gradient(45deg, #ff1493, #8a2be2) 1;
+}
+.border-7-groove-gradient-dark-orange-light-yellow {
+  border: 7px groove transparent;
+  border-image: linear-gradient(45deg, #cc6600, #ffffe0) 1;
+}
+.border-8-groove-gradient-midnight-blue-light-blue {
+  border: 8px groove transparent;
+  border-image: linear-gradient(45deg, #191970, #87cefa) 1;
+}
+.border-9-groove-gradient-slate-gray-light-gray {
+  border: 9px groove transparent;
+  border-image: linear-gradient(45deg, #708090, #d3d3d3) 1;
+}
+.border-10-groove-gradient-forest-green-light-green {
+  border: 10px groove transparent;
+  border-image: linear-gradient(45deg, #228b22, #90ee90) 1;
+}
+
+/* 1px ridge border in deep blue with shade variations */
+.border-1-ridge-deep-blue-100 {
+  border: 1px ridge #002d72; /* Slightly lighter Deep Blue */
+}
+.border-1-ridge-deep-blue-200 {
+  border: 1px ridge #003366; /* Original Deep Blue */
+}
+.border-1-ridge-deep-blue-300 {
+  border: 1px ridge #004080; /* Slightly darker Deep Blue */
+}
+
+/* 2px ridge border in teal with shade variations */
+.border-2-ridge-teal-100 {
+  border: 2px ridge #007373; /* Slightly lighter Teal */
+}
+.border-2-ridge-teal-200 {
+  border: 2px ridge #008080; /* Original Teal */
+}
+.border-2-ridge-teal-300 {
+  border: 2px ridge #009688; /* Slightly darker Teal */
+}
+
+/* 3px ridge border in dark green with shade variations */
+.border-3-ridge-dark-green-100 {
+  border: 3px ridge #003d00; /* Slightly lighter Dark Green */
+}
+.border-3-ridge-dark-green-200 {
+  border: 3px ridge #004d00; /* Original Dark Green */
+}
+.border-3-ridge-dark-green-300 {
+  border: 3px ridge #005700; /* Slightly darker Dark Green */
+}
+
+/* 4px ridge border in dark red with shade variations */
+.border-4-ridge-dark-red-100 {
+  border: 4px ridge #5c0000; /* Slightly lighter Dark Red */
+}
+.border-4-ridge-dark-red-200 {
+  border: 4px ridge #660000; /* Original Dark Red */
+}
+.border-4-ridge-dark-red-300 {
+  border: 4px ridge #730000; /* Slightly darker Dark Red */
+}
+
+/* 5px ridge border in purple with shade variations */
+.border-5-ridge-purple-100 {
+  border: 5px ridge #4b0033; /* Slightly lighter Purple */
+}
+.border-5-ridge-purple-200 {
+  border: 5px ridge #660066; /* Original Purple */
+}
+.border-5-ridge-purple-300 {
+  border: 5px ridge #800080; /* Slightly darker Purple */
+}
+
+/* 6px ridge border in dark orange with shade variations */
+.border-6-ridge-dark-orange-100 {
+  border: 6px ridge #b34d00; /* Slightly lighter Dark Orange */
+}
+.border-6-ridge-dark-orange-200 {
+  border: 6px ridge #cc6600; /* Original Dark Orange */
+}
+.border-6-ridge-dark-orange-300 {
+  border: 6px ridge #e65c00; /* Slightly darker Dark Orange */
+}
+
+/* 7px ridge border in midnight blue with shade variations */
+.border-7-ridge-midnight-blue-100 {
+  border: 7px ridge #000066; /* Slightly lighter Midnight Blue */
+}
+.border-7-ridge-midnight-blue-200 {
+  border: 7px ridge #191970; /* Original Midnight Blue */
+}
+.border-7-ridge-midnight-blue-300 {
+  border: 7px ridge #000080; /* Slightly darker Midnight Blue */
+}
+
+/* 8px ridge border in slate gray with shade variations */
+.border-8-ridge-slate-gray-100 {
+  border: 8px ridge #6e7b8b; /* Slightly lighter Slate Gray */
+}
+.border-8-ridge-slate-gray-200 {
+  border: 8px ridge #708090; /* Original Slate Gray */
+}
+.border-8-ridge-slate-gray-300 {
+  border: 8px ridge #778899; /* Slightly darker Slate Gray */
+}
+
+/* 9px ridge border in forest green with shade variations */
+.border-9-ridge-forest-green-100 {
+  border: 9px ridge #1e6e1e; /* Slightly lighter Forest Green */
+}
+.border-9-ridge-forest-green-200 {
+  border: 9px ridge #228b22; /* Original Forest Green */
+}
+.border-9-ridge-forest-green-300 {
+  border: 9px ridge #2e8b57; /* Slightly darker Forest Green */
+}
+
+/* 10px ridge border in dark violet with shade variations */
+.border-10-ridge-dark-violet-100 {
+  border: 10px ridge #3a007d; /* Slightly lighter Dark Violet */
+}
+.border-10-ridge-dark-violet-200 {
+  border: 10px ridge #4b0082; /* Original Dark Violet */
+}
+.border-10-ridge-dark-violet-300 {
+  border: 10px ridge #5a0099; /* Slightly darker Dark Violet */
+}
+
+/* Gradient ridge borders */
+.border-1-ridge-gradient-blue-purple {
+  border: 1px ridge transparent;
+  border-image: linear-gradient(45deg, #0000ff, #800080) 1;
+}
+.border-2-ridge-gradient-teal-orange {
+  border: 2px ridge transparent;
+  border-image: linear-gradient(45deg, #008080, #ff4500) 1;
+}
+.border-3-ridge-gradient-dark-green-gold {
+  border: 3px ridge transparent;
+  border-image: linear-gradient(45deg, #004d00, #ffd700) 1;
+}
+.border-4-ridge-gradient-dark-red-light-pink {
+  border: 4px ridge transparent;
+  border-image: linear-gradient(45deg, #660000, #ff69b4) 1;
+}
+.border-5-ridge-gradient-deep-blue-cyan {
+  border: 5px ridge transparent;
+  border-image: linear-gradient(45deg, #003366, #00ffff) 1;
+}
+.border-6-ridge-gradient-pink-violet {
+  border: 6px ridge transparent;
+  border-image: linear-gradient(45deg, #ff1493, #8a2be2) 1;
+}
+.border-7-ridge-gradient-dark-orange-light-yellow {
+  border: 7px ridge transparent;
+  border-image: linear-gradient(45deg, #cc6600, #ffffe0) 1;
+}
+.border-8-ridge-gradient-midnight-blue-light-blue {
+  border: 8px ridge transparent;
+  border-image: linear-gradient(45deg, #191970, #87cefa) 1;
+}
+.border-9-ridge-gradient-slate-gray-light-gray {
+  border: 9px ridge transparent;
+  border-image: linear-gradient(45deg, #708090, #d3d3d3) 1;
+}
+.border-10-ridge-gradient-forest-green-light-green {
+  border: 10px ridge transparent;
+  border-image: linear-gradient(45deg, #228b22, #90ee90) 1;
+}

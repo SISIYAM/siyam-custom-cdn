@@ -1,0 +1,489 @@
+/* Width utility classes */
+/* Width utility classes in viewport width (vw) */
+
+/* 100% of viewport width */
+.width-vw-100 {
+  width: 100vw;
+}
+
+/* 75% of viewport width */
+.width-vw-75 {
+  width: 75vw;
+}
+
+/* 50% of viewport width */
+.width-vw-50 {
+  width: 50vw;
+}
+
+/* 25% of viewport width */
+.width-vw-25 {
+  width: 25vw;
+}
+
+/* 10% of viewport width */
+.width-vw-10 {
+  width: 10vw;
+}
+
+/* Width utility classes in rem, starting from 1 rem and increasing by 1 rem up to 25 rem */
+
+/* 1 rem */
+.width-rem-1 {
+  width: 1rem;
+}
+
+/* 2 rem */
+.width-rem-2 {
+  width: 2rem;
+}
+
+/* 3 rem */
+.width-rem-3 {
+  width: 3rem;
+}
+
+/* 4 rem */
+.width-rem-4 {
+  width: 4rem;
+}
+
+/* 5 rem */
+.width-rem-5 {
+  width: 5rem;
+}
+
+/* 6 rem */
+.width-rem-6 {
+  width: 6rem;
+}
+
+/* 7 rem */
+.width-rem-7 {
+  width: 7rem;
+}
+
+/* 8 rem */
+.width-rem-8 {
+  width: 8rem;
+}
+
+/* 9 rem */
+.width-rem-9 {
+  width: 9rem;
+}
+
+/* 10 rem */
+.width-rem-10 {
+  width: 10rem;
+}
+
+/* 11 rem */
+.width-rem-11 {
+  width: 11rem;
+}
+
+/* 12 rem */
+.width-rem-12 {
+  width: 12rem;
+}
+
+/* 13 rem */
+.width-rem-13 {
+  width: 13rem;
+}
+
+/* 14 rem */
+.width-rem-14 {
+  width: 14rem;
+}
+
+/* 15 rem */
+.width-rem-15 {
+  width: 15rem;
+}
+
+/* 16 rem */
+.width-rem-16 {
+  width: 16rem;
+}
+
+/* 17 rem */
+.width-rem-17 {
+  width: 17rem;
+}
+
+/* 18 rem */
+.width-rem-18 {
+  width: 18rem;
+}
+
+/* 19 rem */
+.width-rem-19 {
+  width: 19rem;
+}
+
+/* 20 rem */
+.width-rem-20 {
+  width: 20rem;
+}
+
+/* 21 rem */
+.width-rem-21 {
+  width: 21rem;
+}
+
+/* 22 rem */
+.width-rem-22 {
+  width: 22rem;
+}
+
+/* 23 rem */
+.width-rem-23 {
+  width: 23rem;
+}
+
+/* 24 rem */
+.width-rem-24 {
+  width: 24rem;
+}
+
+/* 25 rem */
+.width-rem-25 {
+  width: 25rem;
+}
+
+/* Width utility classes in pixels */
+
+/* 1 px to 25 px, increasing by 1 px */
+.width-px-1 {
+  width: 1px;
+}
+.width-px-2 {
+  width: 2px;
+}
+.width-px-3 {
+  width: 3px;
+}
+.width-px-4 {
+  width: 4px;
+}
+.width-px-5 {
+  width: 5px;
+}
+.width-px-6 {
+  width: 6px;
+}
+.width-px-7 {
+  width: 7px;
+}
+.width-px-8 {
+  width: 8px;
+}
+.width-px-9 {
+  width: 9px;
+}
+.width-px-10 {
+  width: 10px;
+}
+.width-px-11 {
+  width: 11px;
+}
+.width-px-12 {
+  width: 12px;
+}
+.width-px-13 {
+  width: 13px;
+}
+.width-px-14 {
+  width: 14px;
+}
+.width-px-15 {
+  width: 15px;
+}
+.width-px-16 {
+  width: 16px;
+}
+.width-px-17 {
+  width: 17px;
+}
+.width-px-18 {
+  width: 18px;
+}
+.width-px-19 {
+  width: 19px;
+}
+.width-px-20 {
+  width: 20px;
+}
+.width-px-21 {
+  width: 21px;
+}
+.width-px-22 {
+  width: 22px;
+}
+.width-px-23 {
+  width: 23px;
+}
+.width-px-24 {
+  width: 24px;
+}
+.width-px-25 {
+  width: 25px;
+}
+
+/* 30 px to 100 px, increasing by 5 px */
+.width-px-30 {
+  width: 30px;
+}
+.width-px-35 {
+  width: 35px;
+}
+.width-px-40 {
+  width: 40px;
+}
+.width-px-45 {
+  width: 45px;
+}
+.width-px-50 {
+  width: 50px;
+}
+.width-px-55 {
+  width: 55px;
+}
+.width-px-60 {
+  width: 60px;
+}
+.width-px-65 {
+  width: 65px;
+}
+.width-px-70 {
+  width: 70px;
+}
+.width-px-75 {
+  width: 75px;
+}
+.width-px-80 {
+  width: 80px;
+}
+.width-px-85 {
+  width: 85px;
+}
+.width-px-90 {
+  width: 90px;
+}
+.width-px-95 {
+  width: 95px;
+}
+.width-px-100 {
+  width: 100px;
+}
+
+/* 110 px to 150 px, increasing by 10 px */
+.width-px-110 {
+  width: 110px;
+}
+.width-px-120 {
+  width: 120px;
+}
+.width-px-130 {
+  width: 130px;
+}
+.width-px-140 {
+  width: 140px;
+}
+.width-px-150 {
+  width: 150px;
+}
+
+/* 180 px to 300 px, increasing by 30 px */
+.width-px-180 {
+  width: 180px;
+}
+.width-px-210 {
+  width: 210px;
+}
+.width-px-240 {
+  width: 240px;
+}
+.width-px-270 {
+  width: 270px;
+}
+.width-px-300 {
+  width: 300px;
+}
+
+/* Width utility classes in percentages */
+
+/* 1% to 25%, increasing by 1% */
+.width-percent-1 {
+  width: 1%;
+}
+.width-percent-2 {
+  width: 2%;
+}
+.width-percent-3 {
+  width: 3%;
+}
+.width-percent-4 {
+  width: 4%;
+}
+.width-percent-5 {
+  width: 5%;
+}
+.width-percent-6 {
+  width: 6%;
+}
+.width-percent-7 {
+  width: 7%;
+}
+.width-percent-8 {
+  width: 8%;
+}
+.width-percent-9 {
+  width: 9%;
+}
+.width-percent-10 {
+  width: 10%;
+}
+.width-percent-11 {
+  width: 11%;
+}
+.width-percent-12 {
+  width: 12%;
+}
+.width-percent-13 {
+  width: 13%;
+}
+.width-percent-14 {
+  width: 14%;
+}
+.width-percent-15 {
+  width: 15%;
+}
+.width-percent-16 {
+  width: 16%;
+}
+.width-percent-17 {
+  width: 17%;
+}
+.width-percent-18 {
+  width: 18%;
+}
+.width-percent-19 {
+  width: 19%;
+}
+.width-percent-20 {
+  width: 20%;
+}
+.width-percent-21 {
+  width: 21%;
+}
+.width-percent-22 {
+  width: 22%;
+}
+.width-percent-23 {
+  width: 23%;
+}
+.width-percent-24 {
+  width: 24%;
+}
+.width-percent-25 {
+  width: 25%;
+}
+
+/* 30% to 100%, increasing by 5% */
+.width-percent-30 {
+  width: 30%;
+}
+.width-percent-35 {
+  width: 35%;
+}
+.width-percent-40 {
+  width: 40%;
+}
+.width-percent-45 {
+  width: 45%;
+}
+.width-percent-50 {
+  width: 50%;
+}
+.width-percent-55 {
+  width: 55%;
+}
+.width-percent-60 {
+  width: 60%;
+}
+.width-percent-65 {
+  width: 65%;
+}
+.width-percent-70 {
+  width: 70%;
+}
+.width-percent-75 {
+  width: 75%;
+}
+.width-percent-80 {
+  width: 80%;
+}
+.width-percent-85 {
+  width: 85%;
+}
+.width-percent-90 {
+  width: 90%;
+}
+.width-percent-95 {
+  width: 95%;
+}
+.width-percent-100 {
+  width: 100%;
+}
+
+/* 110% to 150%, increasing by 10% */
+.width-percent-110 {
+  width: 110%;
+}
+.width-percent-120 {
+  width: 120%;
+}
+.width-percent-130 {
+  width: 130%;
+}
+.width-percent-140 {
+  width: 140%;
+}
+.width-percent-150 {
+  width: 150%;
+}
+
+/* 180% to 300%, increasing by 30% */
+.width-percent-180 {
+  width: 180%;
+}
+.width-percent-210 {
+  width: 210%;
+}
+.width-percent-240 {
+  width: 240%;
+}
+.width-percent-270 {
+  width: 270%;
+}
+.width-percent-300 {
+  width: 300%;
+}
+
+/* Auto */
+.width-auto {
+  width: auto;
+}
+
+/* Initial - Sets the width to its default value */
+.width-initial {
+  width: initial;
+}
+
+/* Inherit - Inherits the width from its parent */
+.width-inherit {
+  width: inherit;
+}
