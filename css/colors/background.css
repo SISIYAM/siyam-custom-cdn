@@ -1,0 +1,187 @@
+/* Blue Background Shades */
+.background-color-blue-50 {
+  background-color: #eff6ff !important;
+}
+.background-color-blue-100 {
+  background-color: #dbeafe !important;
+}
+.background-color-blue-200 {
+  background-color: #bfdbfe !important;
+}
+.background-color-blue-300 {
+  background-color: #93c5fd !important;
+}
+.background-color-blue-400 {
+  background-color: #60a5fa !important;
+}
+.background-color-blue-500 {
+  background-color: #3b82f6 !important;
+}
+.background-color-blue-600 {
+  background-color: #2563eb !important;
+}
+.background-color-blue-700 {
+  background-color: #1d4ed8 !important;
+}
+.background-color-blue-800 {
+  background-color: #1e40af !important;
+}
+.background-color-blue-900 {
+  background-color: #1e3a8a !important;
+}
+
+/* Green Background Shades */
+.background-color-green-50 {
+  background-color: #f0fdf4 !important;
+}
+.background-color-green-100 {
+  background-color: #dcfce7 !important;
+}
+.background-color-green-200 {
+  background-color: #bbf7d0 !important;
+}
+.background-color-green-300 {
+  background-color: #86efac !important;
+}
+.background-color-green-400 {
+  background-color: #4ade80 !important;
+}
+.background-color-green-500 {
+  background-color: #22c55e !important;
+}
+.background-color-green-600 {
+  background-color: #16a34a !important;
+}
+.background-color-green-700 {
+  background-color: #15803d !important;
+}
+.background-color-green-800 {
+  background-color: #166534 !important;
+}
+.background-color-green-900 {
+  background-color: #14532d !important;
+}
+
+/* Yellow Background Shades */
+.background-color-yellow-50 {
+  background-color: #fefce8 !important;
+}
+.background-color-yellow-100 {
+  background-color: #fef9c3 !important;
+}
+.background-color-yellow-200 {
+  background-color: #fef08a !important;
+}
+.background-color-yellow-300 {
+  background-color: #fde047 !important;
+}
+.background-color-yellow-400 {
+  background-color: #facc15 !important;
+}
+.background-color-yellow-500 {
+  background-color: #eab308 !important;
+}
+.background-color-yellow-600 {
+  background-color: #ca8a04 !important;
+}
+.background-color-yellow-700 {
+  background-color: #a16207 !important;
+}
+.background-color-yellow-800 {
+  background-color: #854d0e !important;
+}
+.background-color-yellow-900 {
+  background-color: #713f12 !important;
+}
+
+/* Gray Background Shades */
+.background-color-gray-50 {
+  background-color: #f9fafb !important;
+}
+.background-color-gray-100 {
+  background-color: #f3f4f6 !important;
+}
+.background-color-gray-200 {
+  background-color: #e5e7eb !important;
+}
+.background-color-gray-300 {
+  background-color: #d1d5db !important;
+}
+.background-color-gray-400 {
+  background-color: #9ca3af !important;
+}
+.background-color-gray-500 {
+  background-color: #6b7280 !important;
+}
+.background-color-gray-600 {
+  background-color: #4b5563 !important;
+}
+.background-color-gray-700 {
+  background-color: #374151 !important;
+}
+.background-color-gray-800 {
+  background-color: #1f2937 !important;
+}
+.background-color-gray-900 {
+  background-color: #111827 !important;
+}
+
+/* Red to Yellow Gradient */
+.background-color-gradient-red-yellow {
+  background: linear-gradient(to right, #f44336, #ffeb3b) !important;
+}
+
+/* Blue to Green Gradient */
+.background-color-gradient-blue-green {
+  background: linear-gradient(to right, #2196f3, #4caf50) !important;
+}
+
+/* Purple to Pink Gradient */
+.background-color-gradient-purple-pink {
+  background: linear-gradient(to right, #9c27b0, #e91e63) !important;
+}
+
+/* Orange to Red Gradient */
+.background-color-gradient-orange-red {
+  background: linear-gradient(to right, #ff9800, #f44336) !important;
+}
+
+/* Teal to Cyan Gradient */
+.background-color-gradient-teal-cyan {
+  background: linear-gradient(to right, #009688, #00bcd4) !important;
+}
+
+/* Gray to Black Gradient */
+.background-color-gradient-gray-black {
+  background: linear-gradient(to right, #9e9e9e, #212121) !important;
+}
+
+/* Red Radial Gradient */
+.background-color-gradient-radial-red {
+  background: radial-gradient(circle, #f44336, #b71c1c) !important;
+}
+
+/* Blue Radial Gradient */
+.background-color-gradient-radial-blue {
+  background: radial-gradient(circle, #2196f3, #0d47a1) !important;
+}
+
+/* Green Radial Gradient */
+.background-color-gradient-radial-green {
+  background: radial-gradient(circle, #4caf50, #1b5e20) !important;
+}
+
+/* Purple Radial Gradient */
+.background-color-gradient-radial-purple {
+  background: radial-gradient(circle, #9c27b0, #4a148c) !important;
+}
+
+/* Orange Radial Gradient */
+.background-color-gradient-radial-orange {
+  background: radial-gradient(circle, #ff9800, #e65100) !important;
+}
+
+/* Gray Radial Gradient */
+.background-color-gradient-radial-gray {
+  background: radial-gradient(circle, #9e9e9e, #212121) !important;
+}

@@ -1,0 +1,640 @@
+/* text colors utility class */
+
+.color-black {
+  color: #000000 !important; /* Override color to red with higher specificity */
+}
+
+.color-success {
+  color: #17c964 !important;
+}
+
+.color-danger {
+  color: #f90930 !important;
+}
+
+/* Red Shades */
+.color-red-50 {
+  color: #ffebee !important;
+}
+.color-red-100 {
+  color: #ffcdd2 !important;
+}
+.color-red-200 {
+  color: #ef9a9a !important;
+}
+.color-red-300 {
+  color: #e57373 !important;
+}
+.color-red-400 {
+  color: #ef5350 !important;
+}
+.color-red-500 {
+  color: #f44336 !important;
+}
+.color-red-600 {
+  color: #e53935 !important;
+}
+.color-red-700 {
+  color: #d32f2f !important;
+}
+.color-red-800 {
+  color: #c62828 !important;
+}
+.color-red-900 {
+  color: #b71c1c !important;
+}
+
+/* Blue Shades */
+.color-blue-50 {
+  color: #e3f2fd !important;
+}
+.color-blue-100 {
+  color: #bbdefb !important;
+}
+.color-blue-200 {
+  color: #90caf9 !important;
+}
+.color-blue-300 {
+  color: #64b5f6 !important;
+}
+.color-blue-400 {
+  color: #42a5f5 !important;
+}
+.color-blue-500 {
+  color: #2196f3 !important;
+}
+.color-blue-600 {
+  color: #1e88e5 !important;
+}
+.color-blue-700 {
+  color: #1976d2 !important;
+}
+.color-blue-800 {
+  color: #1565c0 !important;
+}
+.color-blue-900 {
+  color: #0d47a1 !important;
+}
+
+/* Green Shades */
+.color-green-50 {
+  color: #e8f5e9 !important;
+}
+.color-green-100 {
+  color: #c8e6c9 !important;
+}
+.color-green-200 {
+  color: #a5d6a7 !important;
+}
+.color-green-300 {
+  color: #81c784 !important;
+}
+.color-green-400 {
+  color: #66bb6a !important;
+}
+.color-green-500 {
+  color: #4caf50 !important;
+}
+.color-green-600 {
+  color: #43a047 !important;
+}
+.color-green-700 {
+  color: #388e3c !important;
+}
+.color-green-800 {
+  color: #2e7d32 !important;
+}
+.color-green-900 {
+  color: #1b5e20 !important;
+}
+
+/* Yellow Shades */
+.color-yellow-50 {
+  color: #fffde7 !important;
+}
+.color-yellow-100 {
+  color: #fff9c4 !important;
+}
+.color-yellow-200 {
+  color: #fff59d !important;
+}
+.color-yellow-300 {
+  color: #fff176 !important;
+}
+.color-yellow-400 {
+  color: #ffee58 !important;
+}
+.color-yellow-500 {
+  color: #ffeb3b !important;
+}
+.color-yellow-600 {
+  color: #fdd835 !important;
+}
+.color-yellow-700 {
+  color: #fbc02d !important;
+}
+.color-yellow-800 {
+  color: #f9a825 !important;
+}
+.color-yellow-900 {
+  color: #f57f17 !important;
+}
+
+/* Gray Shades */
+.color-gray-50 {
+  color: #fafafa !important;
+}
+.color-gray-100 {
+  color: #f5f5f5 !important;
+}
+.color-gray-200 {
+  color: #eeeeee !important;
+}
+.color-gray-300 {
+  color: #e0e0e0 !important;
+}
+.color-gray-400 {
+  color: #bdbdbd !important;
+}
+.color-gray-500 {
+  color: #9e9e9e !important;
+}
+.color-gray-600 {
+  color: #757575 !important;
+}
+.color-gray-700 {
+  color: #616161 !important;
+}
+.color-gray-800 {
+  color: #424242 !important;
+}
+.color-gray-900 {
+  color: #212121 !important;
+}
+
+.color-purple-50 {
+  color: #f3e5f5 !important;
+}
+.color-purple-100 {
+  color: #e1bee7 !important;
+}
+.color-purple-200 {
+  color: #ce93d8 !important;
+}
+.color-purple-300 {
+  color: #ba68c8 !important;
+}
+.color-purple-400 {
+  color: #ab47bc !important;
+}
+.color-purple-500 {
+  color: #9c27b0 !important;
+}
+.color-purple-600 {
+  color: #8e24aa !important;
+}
+.color-purple-700 {
+  color: #7b1fa2 !important;
+}
+.color-purple-800 {
+  color: #6a1b9a !important;
+}
+.color-purple-900 {
+  color: #4a148c !important;
+}
+.color-purple-50 {
+  color: #f3e5f5 !important;
+}
+.color-purple-100 {
+  color: #e1bee7 !important;
+}
+.color-purple-200 {
+  color: #ce93d8 !important;
+}
+.color-purple-300 {
+  color: #ba68c8 !important;
+}
+.color-purple-400 {
+  color: #ab47bc !important;
+}
+.color-purple-500 {
+  color: #9c27b0 !important;
+}
+.color-purple-600 {
+  color: #8e24aa !important;
+}
+.color-purple-700 {
+  color: #7b1fa2 !important;
+}
+.color-purple-800 {
+  color: #6a1b9a !important;
+}
+.color-purple-900 {
+  color: #4a148c !important;
+}
+
+.color-pink-50 {
+  color: #fce4ec !important;
+}
+.color-pink-100 {
+  color: #f8bbd0 !important;
+}
+.color-pink-200 {
+  color: #f48fb1 !important;
+}
+.color-pink-300 {
+  color: #f06292 !important;
+}
+.color-pink-400 {
+  color: #ec407a !important;
+}
+.color-pink-500 {
+  color: #e91e63 !important;
+}
+.color-pink-600 {
+  color: #d81b60 !important;
+}
+.color-pink-700 {
+  color: #c2185b !important;
+}
+.color-pink-800 {
+  color: #ad1457 !important;
+}
+.color-pink-900 {
+  color: #880e4f !important;
+}
+
+.color-orange-50 {
+  color: #fff3e0 !important;
+}
+.color-orange-100 {
+  color: #ffe0b2 !important;
+}
+.color-orange-200 {
+  color: #ffcc80 !important;
+}
+.color-orange-300 {
+  color: #ffb74d !important;
+}
+.color-orange-400 {
+  color: #ffa726 !important;
+}
+.color-orange-500 {
+  color: #ff9800 !important;
+}
+.color-orange-600 {
+  color: #fb8c00 !important;
+}
+.color-orange-700 {
+  color: #f57c00 !important;
+}
+.color-orange-800 {
+  color: #ef6c00 !important;
+}
+.color-orange-900 {
+  color: #e65100 !important;
+}
+
+.color-teal-50 {
+  color: #e0f2f1 !important;
+}
+.color-teal-100 {
+  color: #b2dfdb !important;
+}
+.color-teal-200 {
+  color: #80cbc4 !important;
+}
+.color-teal-300 {
+  color: #4db6ac !important;
+}
+.color-teal-400 {
+  color: #26a69a !important;
+}
+.color-teal-500 {
+  color: #009688 !important;
+}
+.color-teal-600 {
+  color: #00897b !important;
+}
+.color-teal-700 {
+  color: #00796b !important;
+}
+.color-teal-800 {
+  color: #00695c !important;
+}
+.color-teal-900 {
+  color: #004d40 !important;
+}
+
+/* Red to Yellow Gradient */
+.color-gradient-red-yellow {
+  background: linear-gradient(to right, #f44336, #ffeb3b) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Blue to Green Gradient */
+.color-gradient-blue-green {
+  background: linear-gradient(to right, #2196f3, #4caf50) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Purple to Pink Gradient */
+.color-gradient-purple-pink {
+  background: linear-gradient(to right, #9c27b0, #e91e63) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Orange to Red Gradient */
+.color-gradient-orange-red {
+  background: linear-gradient(to right, #ff9800, #f44336) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Teal to Cyan Gradient */
+.color-gradient-teal-cyan {
+  background: linear-gradient(to right, #009688, #00bcd4) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Gray to Black Gradient */
+.color-gradient-gray-black {
+  background: linear-gradient(to right, #9e9e9e, #212121) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Gold to Orange Gradient */
+.color-gradient-gold-orange {
+  background: linear-gradient(to right, #ffd700, #ff8c00) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Pink to Blue Gradient */
+.color-gradient-pink-blue {
+  background: linear-gradient(to right, #e91e63, #3f51b5) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Lime to Green Gradient */
+.color-gradient-lime-green {
+  background: linear-gradient(to right, #cddc39, #8bc34a) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Red to Violet Gradient */
+.color-gradient-red-violet {
+  background: linear-gradient(to right, #ff5252, #aa00ff) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Red Radial Gradient */
+.color-gradient-radial-red {
+  background: radial-gradient(circle, #f44336, #b71c1c) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Blue Radial Gradient */
+.color-gradient-radial-blue {
+  background: radial-gradient(circle, #2196f3, #0d47a1) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Green Radial Gradient */
+.color-gradient-radial-green {
+  background: radial-gradient(circle, #4caf50, #1b5e20) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Purple Radial Gradient */
+.color-gradient-radial-purple {
+  background: radial-gradient(circle, #9c27b0, #4a148c) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Orange Radial Gradient */
+.color-gradient-radial-orange {
+  background: radial-gradient(circle, #ff9800, #e65100) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Gray Radial Gradient */
+.color-gradient-radial-gray {
+  background: radial-gradient(circle, #9e9e9e, #212121) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Pink Radial Gradient */
+.color-gradient-radial-pink {
+  background: radial-gradient(circle, #e91e63, #880e4f) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Cyan Radial Gradient */
+.color-gradient-radial-cyan {
+  background: radial-gradient(circle, #00bcd4, #006064) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Yellow Radial Gradient */
+.color-gradient-radial-yellow {
+  background: radial-gradient(circle, #ffeb3b, #f57f17) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Brown Radial Gradient */
+.color-gradient-radial-brown {
+  background: radial-gradient(circle, #795548, #3e2723) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Coral to Aqua Gradient */
+.color-gradient-coral-aqua {
+  background: linear-gradient(to right, #ff7f50, #00bcd4) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Indigo to Gold Gradient */
+.color-gradient-indigo-gold {
+  background: linear-gradient(to right, #3f51b5, #ffd700) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Salmon to Plum Gradient */
+.color-gradient-salmon-plum {
+  background: linear-gradient(to right, #fa8072, #8e44ad) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Teal to Orange Gradient */
+.color-gradient-teal-orange {
+  background: linear-gradient(to right, #008080, #ff5722) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Mint to Peach Gradient */
+.color-gradient-mint-peach {
+  background: linear-gradient(to right, #98ff98, #ffccbc) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Maroon to Olive Gradient */
+.color-gradient-maroon-olive {
+  background: linear-gradient(to right, #800000, #808000) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Dark Cyan to Light Cyan Gradient */
+.color-gradient-dark-cyan-light-cyan {
+  background: linear-gradient(to right, #008b8b, #e0ffff) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Light Gray to Dark Gray Gradient */
+.color-gradient-light-dark-gray {
+  background: linear-gradient(to right, #d3d3d3, #a9a9a9) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Lavender to Rose Gradient */
+.color-gradient-lavender-rose {
+  background: linear-gradient(to right, #e6e6fa, #ff007f) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Light Pink to Light Blue Gradient */
+.color-gradient-light-pink-blue {
+  background: linear-gradient(to right, #ffb6c1, #add8e6) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Navy to Sky Blue Radial Gradient */
+.color-gradient-radial-navy-sky {
+  background: radial-gradient(circle, #001f3f, #87ceeb) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Sunset Orange to Twilight Purple Radial Gradient */
+.color-gradient-radial-sunset-twilight {
+  background: radial-gradient(circle, #ff4500, #8a2be2) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Forest Green to Light Green Radial Gradient */
+.color-gradient-radial-forest-light-green {
+  background: radial-gradient(circle, #228b22, #90ee90) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Light Coral to Deep Pink Radial Gradient */
+.color-gradient-radial-light-coral-deep-pink {
+  background: radial-gradient(circle, #f08080, #ff1493) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Deep Sky Blue to Royal Blue Radial Gradient */
+.color-gradient-radial-deep-sky-royal {
+  background: radial-gradient(circle, #00bfff, #4169e1) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Dark Olive to Pale Green Radial Gradient */
+.color-gradient-radial-dark-olive-pale {
+  background: radial-gradient(circle, #556b2f, #98fb98) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Light Steel Blue to Midnight Blue Radial Gradient */
+.color-gradient-radial-light-steel-midnight {
+  background: radial-gradient(circle, #b0c4de, #191970) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Gold to Silver Radial Gradient */
+.color-gradient-radial-gold-silver {
+  background: radial-gradient(circle, #ffd700, #c0c0c0) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Hot Pink to Electric Blue Radial Gradient */
+.color-gradient-radial-hotpink-electric {
+  background: radial-gradient(circle, #ff69b4, #00ffff) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Tomato to Medium Violet Red Radial Gradient */
+.color-gradient-radial-tomato-violet {
+  background: radial-gradient(circle, #ff6347, #c71585) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* background color utility classes  */
+/* Red Background Shades */
+.background-color-red-50 {
+  background-color: #fef2f2 !important;
+}
+.background-color-red-100 {
+  background-color: #fee2e2 !important;
+}
+.background-color-red-200 {
+  background-color: #fecaca !important;
+}
+.background-color-red-300 {
+  background-color: #fca5a5 !important;
+}
+.background-color-red-400 {
+  background-color: #f87171 !important;
+}
+.background-color-red-500 {
+  background-color: #ef4444 !important;
+}
+.background-color-red-600 {
+  background-color: #dc2626 !important;
+}
+.background-color-red-700 {
+  background-color: #b91c1c !important;
+}
+.background-color-red-800 {
+  background-color: #991b1b !important;
+}
+.background-color-red-900 {
+  background-color: #7f1d1d !important;
+}

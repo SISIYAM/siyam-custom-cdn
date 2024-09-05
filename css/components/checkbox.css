@@ -1,0 +1,94 @@
+/* check box  */
+
+.checkbox-group {
+  display: flex;
+  gap: 16px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  padding: 8px;
+}
+
+.checkbox input {
+  display: none;
+}
+
+.checkbox .checkmark {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px; /* Default square */
+  background-color: #ffffff;
+  border: 2px solid #dcdcdc;
+  position: relative;
+  margin-right: 8px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.checkbox input:checked + .checkmark {
+  background-color: currentColor;
+  border-color: currentColor;
+}
+
+.checkbox input:checked + .checkmark::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 1px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.checkbox.check-circle .checkmark {
+  border-radius: 20px;
+}
+
+.checkbox.check-semi .checkmark {
+  border-radius: 9px;
+}
+
+.checkbox.check-sm .checkmark {
+  transform: scale(0.9);
+}
+
+.checkbox.check-sm-1 .checkmark {
+  transform: scale(0.8);
+}
+
+.checkbox.check-sm-2 .checkmark {
+  transform: scale(0.7);
+}
+
+.checkbox.check-sm-3 .checkmark {
+  transform: scale(0.6);
+}
+
+.checkbox.default .checkmark {
+  color: #000000;
+}
+
+.checkbox.primary .checkmark {
+  color: #007bff;
+}
+
+.checkbox.secondary .checkmark {
+  color: #6c757d;
+}
+
+.checkbox.success .checkmark {
+  color: #28a745;
+}
+
+.checkbox.warning .checkmark {
+  color: #ffc107;
+}
+
+.checkbox.danger .checkmark {
+  color: #dc3545;
+}

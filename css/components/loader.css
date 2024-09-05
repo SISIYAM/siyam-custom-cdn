@@ -1,0 +1,45 @@
+/* progress  */
+.progress-group {
+  display: flex;
+  gap: 16px;
+}
+
+.progress-circle {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #69696b59;
+  border-radius: 50%;
+  border-top-color: #000; /* Default color */
+  animation: spin 1s linear infinite;
+  position: relative;
+}
+
+.progress-circle.default {
+  border-top-color: #000;
+}
+
+.progress-circle.primary {
+  border-top-color: #007bff;
+}
+
+.progress-circle.secondary {
+  border-top-color: #6c757d;
+}
+
+.progress-circle.success {
+  border-top-color: #28a745;
+}
+
+.progress-circle.warning {
+  border-top-color: #ffc107;
+}
+
+.progress-circle.danger {
+  border-top-color: #dc3545;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

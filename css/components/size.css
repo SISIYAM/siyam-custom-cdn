@@ -1,0 +1,29 @@
+.sm-1 {
+  transform: scale(0.7);
+}
+
+.sm-2 {
+  transform: scale(0.6);
+}
+
+.sm-3 {
+  transform: scale(0.5);
+}
+
+.lg-1 {
+  transform: scale(1.2);
+}
+
+.lg-2 {
+  transform: scale(1.5);
+}
+.lg-3 {
+  transform: scale(1.7);
+}
+
+.lg-4 {
+  transform: scale(1.8);
+}
+.lg-5 {
+  transform: scale(2);
+}
