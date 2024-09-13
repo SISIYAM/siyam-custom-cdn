@@ -1,0 +1,611 @@
+/* utility classes */
+.container-center {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider {
+  border: 0;
+  border-top: 2px solid #b4b4b4;
+}
+
+.flex {
+  display: flex;
+}
+
+.btn-auto {
+  width: auto; /* Automatically adjusts based on content */
+  padding: 10px 20px; /* Adjust the padding if needed */
+  align-self: flex-start; /* Prevents the button from stretching */
+}
+
+.flex.column {
+  flex-direction: column;
+}
+
+.flex.row {
+  flex-direction: row;
+}
+.flex.wrap {
+  flex-wrap: wrap;
+}
+.flex.gap-1 {
+  gap: 1px;
+}
+.flex.gap-2 {
+  gap: 2px;
+}
+.flex.gap-3 {
+  gap: 3px;
+}
+.flex.gap-4 {
+  gap: 4px;
+}
+.flex.gap-5 {
+  gap: 5px;
+}
+.flex.gap-6 {
+  gap: 6px;
+}
+.flex.gap-7 {
+  gap: 7px;
+}
+.flex.gap-8 {
+  gap: 8px;
+}
+.flex.gap-9 {
+  gap: 9px;
+}
+.flex.gap-10 {
+  gap: 10px;
+}
+.flex.gap-11 {
+  gap: 11px;
+}
+.flex.gap-12 {
+  gap: 12px;
+}
+.flex.gap-13 {
+  gap: 13px;
+}
+.flex.gap-14 {
+  gap: 14px;
+}
+.flex.gap-15 {
+  gap: 15px;
+}
+.flex.gap-16 {
+  gap: 16px;
+}
+.flex.gap-17 {
+  gap: 17px;
+}
+.flex.gap-18 {
+  gap: 18px;
+}
+.flex.gap-19 {
+  gap: 19px;
+}
+.flex.gap-20 {
+  gap: 20px;
+}
+.flex.gap-21 {
+  gap: 21px;
+}
+.flex.gap-22 {
+  gap: 22px;
+}
+.flex.gap-23 {
+  gap: 23px;
+}
+.flex.gap-24 {
+  gap: 24px;
+}
+.flex.gap-25 {
+  gap: 25px;
+}
+.flex.gap-26 {
+  gap: 26px;
+}
+.flex.gap-27 {
+  gap: 27px;
+}
+.flex.gap-28 {
+  gap: 28px;
+}
+.flex.gap-29 {
+  gap: 29px;
+}
+.flex.gap-30 {
+  gap: 30px;
+}
+.flex.gap-31 {
+  gap: 31px;
+}
+.flex.gap-32 {
+  gap: 32px;
+}
+.flex.gap-33 {
+  gap: 33px;
+}
+.flex.gap-34 {
+  gap: 34px;
+}
+.flex.gap-35 {
+  gap: 35px;
+}
+.flex.gap-36 {
+  gap: 36px;
+}
+.flex.gap-37 {
+  gap: 37px;
+}
+.flex.gap-38 {
+  gap: 38px;
+}
+.flex.gap-39 {
+  gap: 39px;
+}
+.flex.gap-40 {
+  gap: 40px;
+}
+.flex.gap-41 {
+  gap: 41px;
+}
+.flex.gap-42 {
+  gap: 42px;
+}
+.flex.gap-43 {
+  gap: 43px;
+}
+.flex.gap-44 {
+  gap: 44px;
+}
+.flex.gap-45 {
+  gap: 45px;
+}
+.flex.gap-46 {
+  gap: 46px;
+}
+.flex.gap-47 {
+  gap: 47px;
+}
+.flex.gap-48 {
+  gap: 48px;
+}
+.flex.gap-49 {
+  gap: 49px;
+}
+.flex.gap-50 {
+  gap: 50px;
+}
+.flex.gap-60 {
+  gap: 60px;
+}
+.flex.gap-70 {
+  gap: 70px;
+}
+.flex.gap-80 {
+  gap: 80px;
+}
+.flex.gap-90 {
+  gap: 90px;
+}
+.flex.gap-100 {
+  gap: 100px;
+}
+.flex.gap-110 {
+  gap: 110px;
+}
+.flex.gap-120 {
+  gap: 120px;
+}
+.flex.gap-130 {
+  gap: 130px;
+}
+.flex.gap-140 {
+  gap: 140px;
+}
+.flex.gap-150 {
+  gap: 150px;
+}
+.flex.gap-160 {
+  gap: 160px;
+}
+.flex.gap-170 {
+  gap: 170px;
+}
+.flex.gap-180 {
+  gap: 180px;
+}
+.flex.gap-190 {
+  gap: 190px;
+}
+.flex.gap-200 {
+  gap: 200px;
+}
+.flex.gap-210 {
+  gap: 210px;
+}
+.flex.gap-220 {
+  gap: 220px;
+}
+.flex.gap-230 {
+  gap: 230px;
+}
+.flex.gap-240 {
+  gap: 240px;
+}
+.flex.gap-250 {
+  gap: 250px;
+}
+.flex.gap-260 {
+  gap: 260px;
+}
+.flex.gap-270 {
+  gap: 270px;
+}
+.flex.gap-280 {
+  gap: 280px;
+}
+.flex.gap-290 {
+  gap: 290px;
+}
+.flex.gap-300 {
+  gap: 300px;
+}
+
+/* box shadow  */
+/* Box Shadow Utility Classes */
+
+/* Small shadow */
+.box-shadow-1 {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Medium shadow */
+.box-shadow-2 {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Large shadow */
+.box-shadow-3 {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Extra large shadow */
+.box-shadow-4 {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* Extra extra large shadow */
+.box-shadow-5 {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Inset shadow (inner shadow) */
+.box-shadow-inset {
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Shadow with spread */
+.box-shadow-spread {
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Colored shadow */
+.box-shadow-color {
+  box-shadow: 0px 4px 8px rgba(0, 150, 136, 0.3); /* Teal shadow */
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+/* utility class for max height  */
+.max-width-1 {
+  max-width: 5px;
+}
+.max-width-2 {
+  max-width: 10px;
+}
+.max-width-3 {
+  max-width: 15px;
+}
+.max-width-4 {
+  max-width: 20px;
+}
+.max-width-5 {
+  max-width: 25px;
+}
+.max-width-6 {
+  max-width: 30px;
+}
+.max-width-7 {
+  max-width: 35px;
+}
+.max-width-8 {
+  max-width: 40px;
+}
+.max-width-9 {
+  max-width: 45px;
+}
+.max-width-10 {
+  max-width: 50px;
+}
+.max-width-11 {
+  max-width: 55px;
+}
+.max-width-12 {
+  max-width: 60px;
+}
+.max-width-13 {
+  max-width: 65px;
+}
+.max-width-14 {
+  max-width: 70px;
+}
+.max-width-15 {
+  max-width: 75px;
+}
+.max-width-16 {
+  max-width: 80px;
+}
+.max-width-17 {
+  max-width: 85px;
+}
+.max-width-18 {
+  max-width: 90px;
+}
+.max-width-19 {
+  max-width: 95px;
+}
+.max-width-20 {
+  max-width: 100px;
+}
+.max-width-21 {
+  max-width: 105px;
+}
+.max-width-22 {
+  max-width: 110px;
+}
+.max-width-23 {
+  max-width: 115px;
+}
+.max-width-24 {
+  max-width: 120px;
+}
+.max-width-25 {
+  max-width: 125px;
+}
+
+.max-width-26 {
+  max-width: 175px;
+}
+.max-width-27 {
+  max-width: 225px;
+}
+.max-width-28 {
+  max-width: 275px;
+}
+.max-width-29 {
+  max-width: 325px;
+}
+.max-width-30 {
+  max-width: 375px;
+}
+.max-width-31 {
+  max-width: 425px;
+}
+.max-width-32 {
+  max-width: 475px;
+}
+.max-width-33 {
+  max-width: 525px;
+}
+.max-width-34 {
+  max-width: 575px;
+}
+.max-width-35 {
+  max-width: 625px;
+}
+.max-width-36 {
+  max-width: 675px;
+}
+.max-width-37 {
+  max-width: 725px;
+}
+.max-width-38 {
+  max-width: 775px;
+}
+.max-width-39 {
+  max-width: 825px;
+}
+.max-width-40 {
+  max-width: 875px;
+}
+.max-width-41 {
+  max-width: 925px;
+}
+.max-width-42 {
+  max-width: 975px;
+}
+.max-width-43 {
+  max-width: 1025px;
+}
+.max-width-44 {
+  max-width: 1075px;
+}
+.max-width-45 {
+  max-width: 1125px;
+}
+.max-width-46 {
+  max-width: 1175px;
+}
+.max-width-47 {
+  max-width: 1225px;
+}
+.max-width-48 {
+  max-width: 1275px;
+}
+.max-width-49 {
+  max-width: 1325px;
+}
+.max-width-50 {
+  max-width: 1375px;
+}
+
+/* utility class for max height  */
+.max-height-1 {
+  max-height: 5px;
+}
+.max-height-2 {
+  max-height: 10px;
+}
+.max-height-3 {
+  max-height: 15px;
+}
+.max-height-4 {
+  max-height: 20px;
+}
+.max-height-5 {
+  max-height: 25px;
+}
+.max-height-6 {
+  max-height: 30px;
+}
+.max-height-7 {
+  max-height: 35px;
+}
+.max-height-8 {
+  max-height: 40px;
+}
+.max-height-9 {
+  max-height: 45px;
+}
+.max-height-10 {
+  max-height: 50px;
+}
+.max-height-11 {
+  max-height: 55px;
+}
+.max-height-12 {
+  max-height: 60px;
+}
+.max-height-13 {
+  max-height: 65px;
+}
+.max-height-14 {
+  max-height: 70px;
+}
+.max-height-15 {
+  max-height: 75px;
+}
+.max-height-16 {
+  max-height: 80px;
+}
+.max-height-17 {
+  max-height: 85px;
+}
+.max-height-18 {
+  max-height: 90px;
+}
+.max-height-19 {
+  max-height: 95px;
+}
+.max-height-20 {
+  max-height: 100px;
+}
+.max-height-21 {
+  max-height: 105px;
+}
+.max-height-22 {
+  max-height: 110px;
+}
+.max-height-23 {
+  max-height: 115px;
+}
+.max-height-24 {
+  max-height: 120px;
+}
+.max-height-25 {
+  max-height: 125px;
+}
+
+.max-height-26 {
+  max-height: 175px;
+}
+.max-height-27 {
+  max-height: 225px;
+}
+.max-height-28 {
+  max-height: 275px;
+}
+.max-height-29 {
+  max-height: 325px;
+}
+.max-height-30 {
+  max-height: 375px;
+}
+.max-height-31 {
+  max-height: 425px;
+}
+.max-height-32 {
+  max-height: 475px;
+}
+.max-height-33 {
+  max-height: 525px;
+}
+.max-height-34 {
+  max-height: 575px;
+}
+.max-height-35 {
+  max-height: 625px;
+}
+.max-height-36 {
+  max-height: 675px;
+}
+.max-height-37 {
+  max-height: 725px;
+}
+.max-height-38 {
+  max-height: 775px;
+}
+.max-height-39 {
+  max-height: 825px;
+}
+.max-height-40 {
+  max-height: 875px;
+}
+.max-height-41 {
+  max-height: 925px;
+}
+.max-height-42 {
+  max-height: 975px;
+}
+.max-height-43 {
+  max-height: 1025px;
+}
+.max-height-44 {
+  max-height: 1075px;
+}
+.max-height-45 {
+  max-height: 1125px;
+}
+.max-height-46 {
+  max-height: 1175px;
+}
+.max-height-47 {
+  max-height: 1225px;
+}
+.max-height-48 {
+  max-height: 1275px;
+}
+.max-height-49 {
+  max-height: 1325px;
+}
+.max-height-50 {
+  max-height: 1375px;
+}

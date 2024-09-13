@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dynamic Rendering</title>
-    <link rel="stylesheet" href="./css/style.min.css" />
+    <title>Siyam</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./src/css/style.min.css" />
   </head>
   <body>
     <div class="container-center flex column gap-30">
@@ -46,6 +52,35 @@
       ></div>
     </div>
 
-    <script src="./js/script.min.js"></script>
+    <div class="toggleSwitch-ui" data-class="custom-class"></div>
+
+    <div class="checkbox-group">
+      <div
+        class="checkBox-ui"
+        data-class="danger check-circle"
+        data-checked="true"
+        data-name="siyamCheck"
+        data-label="Evangel"
+        label-class="btn-primary"
+      ></div>
+
+      <div
+        class="checkBox-ui"
+        data-class="danger check-circle"
+        data-checked="true"
+        data-name="siyamCheck"
+        label-class="badge-defalut"
+      ></div>
+
+      <div
+        class="checkBox-ui"
+        data-class="danger check-circle"
+        data-checked="true"
+        data-name="siyamCheck"
+        label-class="badge-defalut"
+      ></div>
+    </div>
+
+    <script src="./src/js/script.min.js"></script>
   </body>
 </html>

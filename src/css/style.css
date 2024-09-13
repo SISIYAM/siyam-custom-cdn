@@ -1,0 +1,56 @@
+/* Import utility classes CSS file */
+@import url("./utility/utilities.css");
+
+/* Import badges CSS */
+@import url("./components/badges.css");
+
+/* Import buttons CSS */
+@import url("./components/buttons.css");
+
+/* Import cards CSS */
+@import url("./components/cards.css");
+
+/* Import checkbox CSS */
+@import url("./components/checkbox.css");
+
+/* Import images CSS */
+@import url("./components/images.css");
+
+/* Import loader CSS */
+@import url("./components/loader.css");
+
+/* Import modals CSS */
+@import url("./components/modals.css");
+
+/* Import size-related CSS */
+@import url("./components/size.css");
+
+/* Import switches CSS */
+@import url("./components/switches.css");
+
+/* Import colors CSS */
+@import url("./colors/colors.css");
+
+/* Import background color CSS */
+@import url("./colors/background.css");
+
+/* Import margin CSS */
+@import url("./components/margin.css");
+
+/* Import padding CSS */
+@import url("./components/padding.css");
+
+/* Import border CSS */
+@import url("./components/border.css");
+
+/* Import fonts CSS */
+@import url("./components/fonts.css");
+
+/* Import height CSS */
+@import url("./components/height.css");
+
+/* Import width CSS */
+@import url("./components/width.css");
+
+/* Import dropdownmenu CSS */
+@import url("./components/dropdown.css");
