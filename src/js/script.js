@@ -40,17 +40,6 @@ window.addEventListener("click", (e) => {
   }
 });
 
-const heart = document.querySelector(".switch-heart");
-heart.addEventListener("click", () => {
-  if (!heart.classList.contains("forward")) {
-    heart.classList.add("forward");
-    heart.classList.remove("reverse");
-  } else {
-    heart.classList.add("reverse");
-    heart.classList.remove("forward");
-  }
-});
-
 // Render switches
 function renderToggleSwitches() {
   const toggleSwitchElements = document.querySelectorAll(".toggleSwitch-ui");
@@ -59,12 +48,39 @@ function renderToggleSwitches() {
     const label = toggleSwitchElement.getAttribute("data-label");
     const customClass = toggleSwitchElement.getAttribute("data-class") || "";
     const labelClass = toggleSwitchElement.getAttribute("label-class") || "";
-
+    const isChecked =
+      toggleSwitchElement.getAttribute("data-checked") === "true";
+    const isDisabled =
+      toggleSwitchElement.getAttribute("data-disabled") === "true";
+    const inputName = toggleSwitchElement.getAttribute("data-name") || "";
+    const inputValue = toggleSwitchElement.getAttribute("data-value") || "";
+    const inputId = toggleSwitchElement.getAttribute("data-id") || "";
+    const className = toggleSwitchElement.getAttribute("data-class") || "";
+    const isRequired =
+      toggleSwitchElement.getAttribute("data-required") === "true";
+    const hasAutofocus =
+      toggleSwitchElement.getAttribute("data-autofocus") === "true";
+    const inputTitle = toggleSwitchElement.getAttribute("data-title") || "";
+    const ariaLabel = toggleSwitchElement.getAttribute("aria-label") || "";
+    const tabIndex = toggleSwitchElement.getAttribute("data-tabindex") || "";
     const toggleSwitchHTML = `
       <div class="container-switch ${customClass}">
         <label class="switch-label">
-          <input type="checkbox" class="switch-input" />
-          <span class="switch-slider"></span>
+      <input 
+      type="checkbox" 
+      class="switch-input"
+      name="${inputName}" 
+      value="${inputValue}" 
+      id="${inputId}" 
+      ${isChecked ? "checked" : ""}
+      ${isDisabled ? "disabled" : ""}
+      ${isRequired ? "required" : ""}
+      ${hasAutofocus ? "autofocus" : ""}
+      title="${inputTitle}"
+      aria-label="${ariaLabel}"
+      tabindex="${tabIndex}"
+    />
+          <span class="switch-slider ${className}"></span>
         </label>
         ${label ? `<span class="${labelClass}">${label}</span>` : ""}
       </div>
@@ -211,6 +227,7 @@ renderToggleSwitches();
 renderCheckbox();
 // Call the function to render all progress loader
 renderLoader();
+
 document.querySelectorAll(".switch-line").forEach((btn) => {
   btn.addEventListener("click", function () {
     // `this` refers to the clicked `.switch-line` element

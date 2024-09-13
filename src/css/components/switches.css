@@ -115,106 +115,13 @@
 }
 
 /* Warning (Red) */
-.switch-slider.purple {
+.switch-slider.secondary {
   background-color: #e2e2e2;
   box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
 }
-.switch-input:checked + .switch-slider.purple {
+.switch-input:checked + .switch-slider.secondary {
   background-color: #7d2ae8;
   box-shadow: inset 2px 2px 5px #7d2ae8, inset -5px -5px 10px #7d2ae8;
-}
-/* switch heart  */
-.switch-heart {
-  position: relative;
-  height: 70px;
-  width: 70px;
-  background-color: #959595;
-  transform: rotate(-45deg);
-  border-bottom-left-radius: 100px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  cursor: pointer;
-  transition: background-color 0.6s, box-shadow 0.6s; /* Smooth transition for background color and box shadow */
-}
-
-.switch-heart::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: -50%;
-  left: 0;
-  border-radius: 50px;
-  background-color: #959595;
-  transition: background-color 0.6s; /* Smooth transition for background color */
-}
-
-.switch-heart::after {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: -50%;
-  border-radius: 50px;
-  background-color: #959595;
-  transition: background-color 0.6s; /* Smooth transition for background color */
-}
-
-.switch-heart.forward,
-.switch-heart.forward::before,
-.switch-heart.forward::after {
-  background-color: #eb608c; /* Pink background after click */
-}
-
-.heart {
-  position: absolute;
-  height: 55px;
-  width: 55px;
-  left: 7px;
-  top: -28px;
-  border-radius: 50%;
-  z-index: 100;
-  transition: 0.6s;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-}
-
-.switch-heart.forward .heart {
-  animation: move 0.6s forwards;
-}
-
-@keyframes move {
-  0% {
-    left: 7px;
-    top: -28px;
-  }
-  50% {
-    top: -1px;
-    left: 17px;
-  }
-  100% {
-    left: 42px;
-    top: 7px;
-  }
-}
-
-.switch-heart.reverse .heart {
-  animation: back1 0.6s forwards;
-}
-
-@keyframes back1 {
-  0% {
-    left: 42px;
-    top: 7px;
-  }
-  50% {
-    left: 17px;
-    top: 1px;
-  }
-  100% {
-    left: 7px;
-    top: -28px;
-  }
 }
 
 /* Base switch styles */
