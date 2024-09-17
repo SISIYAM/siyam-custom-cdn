@@ -135,8 +135,11 @@ function renderToggleSwitches() {
     const checkbox = this.querySelector("input[type='checkbox']");
 
     if (checkbox) {
-      // Toggle the checkbox's checked state
-      checkbox.checked = !checkbox.checked;
+      // Trigger the checkbox's click event to toggle its checked state
+      checkbox.click();
+
+      // Toggle the 'active' class on the switch
+      this.classList.toggle("active", checkbox.checked);
 
       // Update the data-checked attribute to reflect the checkbox state
       this.setAttribute("data-checked", checkbox.checked ? "true" : "false");
@@ -228,13 +231,33 @@ renderCheckbox();
 // Call the function to render all progress loader
 renderLoader();
 
-document.querySelectorAll(".switch-line").forEach((btn) => {
-  btn.addEventListener("click", function () {
-    // `this` refers to the clicked `.switch-line` element
-    const checkbox = this.querySelector("input[type='checkbox']");
+// document.querySelectorAll(".switch-line").forEach((btn) => {
+//   btn.addEventListener("click", function () {
+//     // `this` refers to the clicked `.switch-line` element
+//     const checkbox = this.querySelector("input[type='checkbox']");
 
-    if (checkbox && checkbox.checked) {
-      alert(checkbox.value);
-    }
-  });
+//     if (checkbox && checkbox.checked) {
+//       alert(checkbox.value);
+//     }
+//   });
+// });
+
+const loveSwitch = document.querySelector("#loveSwitch");
+
+loveSwitch.addEventListener("click", function () {
+  if (loveSwitch.checked) {
+    console.log(loveSwitch.value);
+  } else {
+    console.log("Check kora hoy nai");
+  }
+});
+
+const AssignSwitch = document.querySelector("#AssignSwitch");
+
+AssignSwitch.addEventListener("click", function () {
+  if (AssignSwitch.checked) {
+    console.log(AssignSwitch.value);
+  } else {
+    console.log("Check kora hoy nai");
+  }
 });
